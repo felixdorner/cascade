@@ -1,0 +1,148 @@
+/*
+
+  BASE
+
+*/
+
+body {
+  background-color: var(--color--light);
+  color: var(--color--primary);
+  font-weight: normal;
+  font-size: 18px;
+  font-family: var(--font--primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+a,
+a:visited {
+  color: var(--color--secondary);
+  text-decoration: none;
+  transition: opacity var(--trsn-dur--primary) var(--trsn-style--primary);
+}
+
+a:hover,
+a:focus,
+a:active {
+  outline: 0;
+  color: var(--color--secondary);
+  opacity: 0.7;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--spacing--04);
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+address {
+  margin-bottom: var(--spacing--04);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  margin-top: 0;
+  margin-bottom: var(--spacing--04);
+  word-wrap: break-word;
+  font-family: var(--font--primary);
+  font-weight: bold;
+  line-height: 1.6;
+
+  & a,
+  & a:visited,
+  & a:hover {
+    color: var(--color--primary);
+  }
+
+  & a:hover,
+  & a:focus,
+  & a:active {
+    opacity: 0.7;
+  }
+}
+
+h1, .h1 { font-size: 2.8em; }
+h2, .h2 { font-size: 2.2em; }
+h3, .h3 { font-size: 1.8em; }
+h4, .h4 { font-size: 1.4em; }
+h5, .h5 { font-size: 1.2em; }
+h6, .h6 { font-size: 1em; }
+
+small {
+  font-size: 0.8em;
+}
+
+big {
+  font-size: 1.2em;
+}
+
+blockquote, q {
+  clear: both;
+  margin: 0 0 var(--spacing--04);
+  padding-left: var(--spacing--03);
+  border-left: 4px solid var(--color--subtle-light);
+  word-wrap: break-word;
+  font-size: 1.4em;
+
+  p {
+    margin: 0;
+  }
+}
+
+pre {
+  overflow: auto;
+  margin-bottom: var(--spacing--04);
+  padding: var(--spacing--03);
+  max-width: 100%;
+  background: var(--color--subtle-light);
+  color: var(--color--primary);
+  font-size: 0.8em;
+  font-family: var(--font--code);
+}
+
+code, kbd, tt, var {
+  font-size: 0.8em;
+  font-family: var(--font--code);
+  background: var(--color--subtle-light);
+  padding: 0.2em;
+}
+
+abbr, acronym {
+  border-bottom: 1px dotted var(--color--subtle-light);
+  cursor: help;
+}
+
+mark, ins {
+  background: var(--color--subtle-light);
+  color: var(--color--primary);
+  text-decoration: none;
+}
+
+hr {
+  margin: var(--spacing--04) 0;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid var(--color--subtle-light);
+  border-left: none;
+}
+
+img, picture, figure {
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+embed, iframe, object {
+  max-width: 100%;
+}

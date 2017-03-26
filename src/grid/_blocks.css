@@ -1,0 +1,30 @@
+/*
+
+  BLOCKS
+
+  The HTML markup should follow a simple but flexible layout structure:
+
+  ├── .block
+  │   ├── .row
+  │   │   ├── .col-*
+  │   │   │   ├── .item
+
+  Each `.block` contains one or more `.row` element(s) which can be filled with
+  a 12 column grid. The grid-width is set on the `.row` element.
+  Gutters are split equally with paddings on `.row` and `.col-*` elements.
+  `.item` elements inside the column serve as content-holder.
+
+*/
+
+html { box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}

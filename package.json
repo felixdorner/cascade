@@ -1,0 +1,35 @@
+{
+  "name": "starrrt",
+  "version": "0.1.0",
+  "description": "A minimal CSS starter-kit written in PostCSS & cssnext",
+  "main": "dist/starrrt.min.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felixdorner/starrrt"
+  },
+  "scripts": {
+    "css:normal": "postcss -u postcss-easy-import -u postcss-cssnext -o dist/starrrt.css src/starrrt.css",
+    "css:min": "postcss -u postcss-easy-import -u postcss-cssnext -u postcss-clean -o dist/starrrt.min.css src/starrrt.css",
+    "copy": "cp dist/starrrt.min.css docs/css/",
+    "watch": "onchange 'src/**/*.css' -- npm-run-all css:* copy",
+    "build": "npm-run-all css:* copy"
+  },
+  "keywords": [
+    "framework",
+    "grid",
+    "css",
+    "postcss",
+    "cssnext"
+  ],
+  "author": "Felix Dorner <mail@felixdorner.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "npm-run-all": "^3.1.1",
+    "onchange": "^3.0.2",
+    "postcss": "^5.2.4",
+    "postcss-clean": "^1.0.2",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-easy-import": "^1.0.1"
+  }
+}

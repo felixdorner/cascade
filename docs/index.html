@@ -1,0 +1,46 @@
+---
+title: Starrrt
+description: A CSS starter-kit written with PostCSS and cssnext
+layout: base
+---
+
+<main class="content">
+
+  <div class="block hero">
+    <div class="row">
+      <div class="col-06">
+        <h1 class="h2">{{page.description}}</h1>
+        <p>Made by <a href="https://twitter.com/felixdorner">@felixdorner</a></p>
+      </div>
+      <div class="col-06">
+        <img src="{{site.baseurl}}/img/starrrt-illu.png" srcset="{{site.baseurl}}/img/starrrt-illu.png 1x, {{site.baseurl}}/img/starrrt-illu@2x.png 2x" alt="Starrrt your project with the CSS starter-kit">
+      </div>
+    </div>
+  </div>
+
+  <div class="block instructions">
+    <div class="row">
+
+      <div class="col-03">
+        <nav id="affix" class="nav-secondary">
+          <ul class="menu">
+            {% for instruction in site.instructions %}
+              <li class="menu-item"><a href="#{{ instruction.slug }}">{{ instruction.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-09">
+        {% for instruction in site.instructions %}
+        <div class="item">
+          <h3 id="{{ instruction.slug }}" class="instruction-title">{{ instruction.title }}</h3>
+          {{ instruction.content }}
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+
+</main>

@@ -1,0 +1,10 @@
+# Custom variables
+version:  v0.1.0
+repo:     https://github.com/felixdorner/starrrt
+download: https://github.com/felixdorner/starrrt/releases/download/v0.1.0/starrrt.min.css
+docs:     https://github.com/felixdorner/starrrt/wiki
+
+# Collections
+collections:
+  instructions:
+    output: false

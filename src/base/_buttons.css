@@ -1,0 +1,26 @@
+/*
+
+  BUTTONS
+
+*/
+
+button,
+a.btn,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  font-size: 0.8em;
+  padding: 1em 1.6em;
+  border: none;
+  border-radius: var(--radius--primary);
+  background: var(--color--secondary);
+  color: var(--color--light);
+  cursor: pointer;
+  transition: opacity var(--trsn-dur--primary) var(--trsn-style--primary);
+  appearance: none;
+
+  &:hover {
+    color: var(--color--light);
+    opacity: 0.8;
+  }
+}

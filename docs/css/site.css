@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*
+
+	Styles for Starrrt Docs
+	Version: 0.1.0
+
+*/
+
+body,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: avenir, 'avenir next', -apple-system, BlinkMacSystemFont, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+  font-weight: normal;
+  color: #303030;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: #687AFF;
+}
+
+a.btn {
+  color: white;
+}
+
+pre {
+  color: #303030;
+}
+
+/* Header */
+
+.site-header {
+  position: absolute;
+  color: white;
+}
+
+.site-header a {
+  color: white;
+}
+
+.site-header .row,
+.site-footer .row {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.site-header .row [class*="col-"] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.branding {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.branding span {
+  font-size: 0.6em;
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-primary .menu {
+  list-style: none;
+  text-align: right;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.nav-primary .menu-item {
+  display: inline-block;
+}
+
+.nav-primary .menu-item a {
+  font-size: 0.7em;
+}
+
+/* Hero */
+
+.hero {
+  background: #687AFF;
+  min-height: 100vh;
+}
+
+.hero .row {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero .row [class*="col-"]:last-child  {
+  text-align: center;
+}
+
+.hero h1,
+.hero p,
+.hero p a {
+  color: white;
+}
+
+.hero p {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+/* Main */
+
+.nav-secondary .menu {
+  list-style: none;
+  padding-top: 30px;
+  padding-left: 0;
+}
+
+.nav-secondary.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.nav-secondary .menu-item {
+  font-size: 0.8em;
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.instructions .item {
+  background: white;
+  border: 1px solid whitesmoke;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+/* Footer */
+
+.site-footer {
+  font-size: 0.8em;
+  color: #989898;
+}

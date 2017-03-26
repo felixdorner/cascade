@@ -1,0 +1,26 @@
+:root {
+  --font--primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font--secondary: Athelas, Georgia, times, serif;
+  --font--code: Consolas, Monaco, monospace;
+  --color--primary: black;
+  --color--secondary: cornflowerblue;
+  --color--subtle: lightgrey;
+  --color--subtle-light: whitesmoke;
+  --color--light: white;
+  --color--success: mediumspringgreen;
+  --color--warning: gold;
+  --color--error: indianred;
+  --radius--primary: 2px;
+  --trsn-dur--primary: 0.2s;
+  --trsn-style--primary: linear;
+  --spacing--01: 4px;
+  --spacing--02: 8px;
+  --spacing--03: 16px;
+  --spacing--04: 32px;
+  --spacing--05: 64px;
+  --spacing--06: 96px;
+  --spacing--07: 128px;
+  --spacing--08: 160px;
+  --spacing--09: 192px;
+  --spacing--10: 224px;
+}

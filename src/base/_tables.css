@@ -1,0 +1,26 @@
+/*
+
+  TABLES
+
+*/
+
+table {
+  margin: 0 0 var(--spacing--04);
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  vertical-align: middle;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+th {
+  padding: var(--spacing--03) 0;
+  border-bottom: 1px solid var(--color--subtle);
+  font-weight: bold;
+}
+
+td {
+  padding: var(--spacing--03) 0;
+  border-bottom: 1px solid var(--color--subtle-light);
+}
