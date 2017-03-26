@@ -19,7 +19,7 @@ Consider that this tool's purpose is to stay as minimal as possible.
 
 ### Build Commands
 
-`yarn watch` — Compile assets when file changes are made, copy dist files to docs
+`yarn watch` — Compile assets when file changes are made, copy dist files to docs  
 `yarn build` — Compile assets, copy dist files to docs
 
 ## Author
