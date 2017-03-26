@@ -5,7 +5,7 @@ slug: start
 
 Download and copy the source files into your new project and integrate them with your workflow. Make sure that your task runner processes these files with PostCSS and cssnext.
 
-<a class="btn" href="https://github.com/felixdorner/starrrt">Download Source Files</a> or view the whole project on <a href="https://github.com/felixdorner/starrrt">Github</a>.
+<a class="btn" href="http://goo.gl/7E1Fbk">Download Source Files</a> or view the whole project on <a href="https://github.com/felixdorner/starrrt">Github</a>.
 
 <!---
 
