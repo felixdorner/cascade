@@ -1,6 +1,6 @@
 # STARRRT
 
-A CSS starter-kit written with [PostCSS](http://postcss.org/) and [cssnext](http://cssnext.io/).
+A minimal CSS starter-kit written with [PostCSS](http://postcss.org/) and [cssnext](http://cssnext.io/).
 
 **Note: This tool is currently in development - expect iterations!**
 
