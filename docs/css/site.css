@@ -2,15 +2,20 @@
 /*
 
 	Styles for Starrrt Docs
-	Version: 0.1.0
+	Version: 0.2.0
+
+  TODO: Add vendor prefixes
 
 */
+
+body {
+  background: #F7F7F7;
+}
 
 body,
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: avenir, 'avenir next', -apple-system, BlinkMacSystemFont, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
-  font-weight: normal;
   color: #303030;
 }
 
@@ -19,72 +24,46 @@ a:visited,
 a:hover,
 a:focus,
 a:active {
-  color: #687AFF;
+  color: #7EC5A4;
 }
 
 a.btn {
   color: white;
+  background-color: #7EC5A4;
+}
+
+a.underlined {
+  display: inline-block;
+  color: #7EC5A4;
+}
+
+a.underlined::after {
+  position: relative;
+  bottom: 0.6em;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 6px;
+  content: '';
+  background: rgba(126, 197, 164, 0.25);
+  transition: width .3s;
 }
 
 pre {
   color: #303030;
 }
 
-/* Header */
-
-.site-header {
-  position: absolute;
-  color: white;
-}
-
-.site-header a {
-  color: white;
-}
-
-.site-header .row,
-.site-footer .row {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.site-header .row [class*="col-"] {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.branding {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.branding span {
-  font-size: 0.6em;
-  text-transform: none;
-  font-weight: normal;
-  font-style: normal;
-}
-
-.nav-primary .menu {
-  list-style: none;
-  text-align: right;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.nav-primary .menu-item {
-  display: inline-block;
-}
-
-.nav-primary .menu-item a {
-  font-size: 0.7em;
+.row {
+  max-width: 1080px;
 }
 
 /* Hero */
 
 .hero {
-  background: #687AFF;
+  position: relative;
+  background: #7EC5A4;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .hero .row {
@@ -100,19 +79,76 @@ pre {
 }
 
 .hero h1,
-.hero p,
-.hero p a {
+.hero p {
   color: white;
 }
 
+.hero .title {
+  font-size: 4em;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 16px;
+  color: white;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8ad1b0+0,8fffcb+100 */
+  background: #8ad1b0; /* Old browsers */
+  background: -moz-linear-gradient(left, #8ad1b0 0%, #8fffcb 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #8ad1b0 0%,#8fffcb 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #8ad1b0 0%,#8fffcb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ad1b0', endColorstr='#8fffcb',GradientType=1 ); /* IE6-9 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hero p {
-  font-size: 0.8em;
+  color: #90FECB;
   margin: 0;
+}
+
+.hero .subtitle {
+  margin-bottom: 32px;
+}
+
+.hero a.underlined {
+  color: #90FECB;
+}
+
+.hero a.underlined::after {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.hero .drawing {
+  position: absolute;
+  z-index: 2;
+}
+
+.hero .circle01 {
+  left: -10%;
+  bottom: -10%;
+}
+
+.hero .circle02 {
+  right: -10%;
+  top: -10%;
+}
+
+.hero .triangle01 {
+  left: 30%;
+  top: 10%;
+  transform: rotate(-145deg);
+}
+
+.hero .triangle02 {
+  right: 30%;
+  bottom: 18%;
+  transform: rotate(145deg);
 }
 
 /* Main */
 
-.nav-secondary .menu {
+.nav-secondary .menu,
+.nav-secondary .menu02 {
   list-style: none;
   padding-top: 30px;
   padding-left: 0;
@@ -125,21 +161,53 @@ pre {
 
 .nav-secondary .menu-item {
   font-size: 0.8em;
-  border-bottom: 1px solid whitesmoke;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
+}
+
+.nav-secondary .menu02 .menu-item {
+  font-size: 0.6em;
+}
+
+.nav-secondary .menu02 .menu-item a::after {
+  bottom: 0.62em;
+  height: 5px;
+}
+
+.version {
+  background: #7EC5A4;
+  padding: 0.2em 0.8em;
+  color: white;
+  border-radius: 20px;
 }
 
 .instructions .item {
   background: white;
-  border: 1px solid whitesmoke;
   padding: 30px;
   border-radius: 4px;
+}
+
+.instructions .item .instruction-title {
+  font-size: 1.4em;
+}
+
+.instructions .item h3 {
+  font-size: 1.2em;
+}
+
+.instructions .item .info {
+  display: block;
+  width: 100%;
+  font-size: 0.8em;
+  color: white;
+  background: #ffb66b;
+  border-radius: 2px;
+  padding: 0.6em 1.2em;
 }
 
 /* Footer */
 
 .site-footer {
-  font-size: 0.8em;
+  font-size: 0.6em;
+  text-align: right;
   color: #989898;
 }

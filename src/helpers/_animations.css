@@ -1,11 +1,7 @@
-/*
-
-  ANIMATIONS
-
-*/
+/* ANIMATIONS */
 
 .animated {
-  transition-duration: var(--trsn-dur--primary);
+  transition-duration: 0.2s;
   animation-fill-mode: both;
 }
 

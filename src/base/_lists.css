@@ -1,8 +1,4 @@
-/*
-
-  LISTS
-
-*/
+/* LISTS */
 
 ul,
 ol {
@@ -23,8 +19,8 @@ dl {
 }
 
 dt {
-  font-weight: bold;
   margin-bottom: var(--spacing--01);
+  font-weight: bold;
 }
 
 dd {

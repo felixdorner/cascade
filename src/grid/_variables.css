@@ -1,6 +1,6 @@
 :root {
-  --grid-max-width: 1184px;
-  --grid-gutter-v: calc(64px / 2);
+  --grid-max-width: 1248px;
+  --grid-gutter-v: calc(32px / 2);
   --grid-gutter-h: calc(32px / 2);
   --grid-gutter-v--s: calc(32px / 2);
   --grid-gutter-h--s: calc(32px / 2);
@@ -23,8 +23,3 @@
   --width-11of12: calc((100% / 12) * 11);
   --width-12of12: 100%;
 }
-
-@custom-media --breakpoint--s screen and (min-width: 480px);
-@custom-media --breakpoint--m screen and (min-width: 640px);
-@custom-media --breakpoint--l screen and (min-width: 960px);
-@custom-media --breakpoint--x screen and (min-width: 1280px);

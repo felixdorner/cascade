@@ -4,24 +4,27 @@ slug: structure
 ---
 
 ```
+├── variables.css
 ├── base/
-│   ├── _vars-global.css
 │   ├── _normalize.css
-│   ├── _base.css
+│   ├── _copy.css
 │   ├── _buttons.css
 │   ├── _forms.css
 │   ├── _lists.css
-│   └── _tables.css
+│   ├── _tables.css
+│   ├── _media.css
+│   └── base.css
 ├── grid/
-│   ├── _vars-grid.css
+│   ├── _variables.css
 │   ├── _blocks.css
 │   ├── _rows.css
 │   ├── _columns.css
 │   ├── _shifts.css
 │   └── _items.css
+│   └── grid.css
 ├── helpers/
 │   ├── _animations.css
-│   ├── _colors.css
-│   └── _animations.css
+│   ├── _spacings.css
+│   └── helpers.css
 └── starrrt.css
 ```

@@ -1,22 +1,18 @@
-/*
-
-  BUTTONS
-
-*/
+/* BUTTONS */
 
 button,
 a.btn,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  font-size: 0.8em;
   padding: 1em 1.6em;
   border: none;
-  border-radius: var(--radius--primary);
-  background: var(--color--secondary);
-  color: var(--color--light);
+  border-radius: 2px;
+  font-size: 0.8em;
   cursor: pointer;
-  transition: opacity var(--trsn-dur--primary) var(--trsn-style--primary);
+  color: var(--color--light);
+  background: var(--color--secondary);
+  transition: opacity 0.2s linear;
   appearance: none;
 
   &:hover {

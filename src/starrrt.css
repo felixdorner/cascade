@@ -2,9 +2,9 @@
 /*!
 
 	STARRRT
-	Version: 0.1.0
+	Version: 0.2.0
 	Author: Felix Dorner
-	Demo URI: https://starrrt.felixdorner.de/
+	Demo URI: https://felixdorner.github.io/starrrt/
 	Description: A minimal CSS starter-kit written with PostCSS & cssnext
   License: MIT
 
@@ -13,21 +13,7 @@
 
 */
 
-@import 'base/_vars-base';
-@import 'base/_normalize';
-@import 'base/_base';
-@import 'base/_buttons';
-@import 'base/_forms';
-@import 'base/_lists';
-@import 'base/_tables';
-
-@import 'grid/_vars-grid';
-@import 'grid/_blocks';
-@import 'grid/_rows';
-@import 'grid/_columns';
-@import 'grid/_shifts';
-@import 'grid/_items';
-
-@import 'helpers/_animations';
-@import 'helpers/_colors';
-@import 'helpers/_spacings';
+@import 'variables';
+@import 'base/base';
+@import 'grid/grid';
+@import 'helpers/helpers';

@@ -1,5 +1,10 @@
 # STARRRT Changelog
 
+### *20170428* - 0.2.0
+* **TWEAK** Updated docs (design and content)
+* **TWEAK** Enhanced file structure
+* **DEV** Added PostCSS sorting config
+
 ### *20170326* - 0.1.0
 * **DEV** Init
 

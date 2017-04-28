@@ -3,7 +3,7 @@ title: Base Styles
 slug: base
 ---
 
-Styles for most common HTML elements like headings, buttons, forms, lists and tables. Adjustable with CSS variables.
+Styles for most common HTML elements like headings, buttons, forms, lists and tables. Adjustable with custom properties.
 
 <!---
 View some examples:

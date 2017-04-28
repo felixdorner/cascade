@@ -1,17 +1,13 @@
-/*
-
-  TABLES
-
-*/
+/* TABLES */
 
 table {
-  margin: 0 0 var(--spacing--04);
   width: 100%;
-  border-collapse: collapse;
+  margin: 0 0 var(--spacing--04);
   table-layout: fixed;
-  vertical-align: middle;
+  border-collapse: collapse;
   font-size: 0.8em;
   text-align: left;
+  vertical-align: middle;
 }
 
 th {

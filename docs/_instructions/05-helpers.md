@@ -3,4 +3,4 @@ title: Helpers
 slug: helpers
 ---
 
-Helper classes to quickly add basic styles like colors, spacings or animations to the HTML markup.
+Helpers are modules with single-purpose styles. At the moment there are two modules to help you refine spacings and animations. Feel free to throw in your own stuff.

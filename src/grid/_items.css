@@ -1,8 +1,4 @@
-/*
-
-  ITEMS
-
-*/
+/* ITEMS */
 
 .item { margin-bottom: var(--grid-gutter-v); }
 .item:last-child { margin-bottom: 0; }
