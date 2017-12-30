@@ -3,6 +3,14 @@
   --font--secondary: Athelas, Georgia, times, serif;
   --font--code: Consolas, Monaco, monospace;
 
+  --font-scale--01: 2.8em;
+  --font-scale--02: 2em;
+  --font-scale--03: 1.6em;
+  --font-scale--04: 1.2em;
+  --font-scale--05: 1em;
+  --font-scale--06: 0.8em;
+  --font-scale--07: 0.7em;
+
   --color--primary: black;
   --color--secondary: cornflowerblue;
   --color--subtle: lightgrey;
@@ -11,6 +19,22 @@
   --color--success: mediumspringgreen;
   --color--warning: gold;
   --color--error: indianred;
+
+  --grid--max-width: 1170px;
+  --grid--gutter: 2rem;
+
+  --span--01: calc(100% / 12);
+  --span--02: calc((100% / 12) * 2);
+  --span--03: 25%;
+  --span--04: calc((100% / 12) * 4);
+  --span--05: calc((100% / 12) * 5);
+  --span--06: 50%;
+  --span--07: calc((100% / 12) * 7);
+  --span--08: calc((100% / 12) * 8);
+  --span--09: 75%;
+  --span--10: calc((100% / 12) * 10);
+  --span--11: calc((100% / 12) * 11);
+  --span--12: 100%;
 
   --spacing--01: 4px;
   --spacing--02: 8px;
@@ -25,6 +49,6 @@
 }
 
 @custom-media --breakpoint--s screen and (min-width: 480px);
-@custom-media --breakpoint--m screen and (min-width: 640px);
+@custom-media --breakpoint--m screen and (min-width: 740px);
 @custom-media --breakpoint--l screen and (min-width: 960px);
-@custom-media --breakpoint--x screen and (min-width: 1280px);
+@custom-media --breakpoint--x screen and (min-width: 1140px);

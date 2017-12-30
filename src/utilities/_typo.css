@@ -1,0 +1,34 @@
+/* TYPO */
+
+.u-ff--primary { font-family: var(--font--primary); }
+.u-ff--secondary { font-family: var(--font--secondary); }
+.u-ff--code { font-family: var(--font--code); }
+
+.u-ta--center { text-align: center; }
+.u-ta--left { text-align: left; }
+.u-ta--right { text-align: right; }
+
+.u-tt--upper { text-transform: uppercase; }
+.u-tt--lower { text-transform: lowercase; }
+.u-tt--capital { text-transform: capitalize; }
+
+.u-fst--normal { font-style: normal; }
+.u-fst--italic { font-style: italic; }
+
+.u-fw--normal { font-weight: normal; }
+.u-fw--bold { font-weight: bold; }
+
+.u-lh--0000 { line-height: 0; }
+.u-lh--0100 { line-height: 1; }
+.u-lh--0102 { line-height: 1.2; }
+.u-lh--0104 { line-height: 1.4; }
+.u-lh--0106 { line-height: 1.6; }
+.u-lh--0108 { line-height: 1.8; }
+
+.u-fs--01 { font-size: var(--font-scale--01); }
+.u-fs--02 { font-size: var(--font-scale--02); }
+.u-fs--03 { font-size: var(--font-scale--03); }
+.u-fs--04 { font-size: var(--font-scale--04); }
+.u-fs--05 { font-size: var(--font-scale--05); }
+.u-fs--06 { font-size: var(--font-scale--06); }
+.u-fs--07 { font-size: var(--font-scale--07); }

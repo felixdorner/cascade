@@ -1,7 +1,7 @@
 # top-most EditorConfig file
 root = true
 
-# tabs indentation
+# 4 spaces indentation
 [*]
-indent_style = tab
-indent_size = 2
+indent_style = space
+indent_size = 4

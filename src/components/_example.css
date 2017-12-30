@@ -1,0 +1,13 @@
+/* EXAMPLE COMPONENT */
+
+.c-example {
+  display: block;
+}
+
+.c-example--alternative {
+  position: absolute;
+}
+
+.c-example__part {
+  text-align: center;
+}

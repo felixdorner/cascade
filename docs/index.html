@@ -1,62 +1,20 @@
 ---
 title: Starrrt
-description: A minimal CSS starter-kit written with PostCSS and cssnext
+description: Object-oriented CSS boilerplate built on top of PostCSS and cssnext.
 layout: base
 ---
 
-<main class="content">
+<main class="o-container c-content">
+  <div class="o-grid">
+    <div class="o-grid__col u-span--12">
 
-  <div class="block hero">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="title">{{page.title}}</h1>
-        <p class="subtitle">A minimal CSS starter-kit written<br>with PostCSS and cssnext</p>
-        <p><a class="underlined" href="#about">Learn more</a></p>
+      {% for instruction in site.instructions %}
+      <div class="c-content__item">
+        <h2 id="{{ instruction.slug }}">{{ instruction.title }}</h2>
+        {{ instruction.content }}
       </div>
-    </div>
-    <svg class="drawing circle01" width="420px" height="420px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <circle fill="#FFFFFF" fill-rule="evenodd" fill-opacity="0.15" cx="210" cy="210" r="210"></circle>
-    </svg>
-    <svg class="drawing circle02" width="420px" height="420px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <circle fill="#FFFFFF" fill-rule="evenodd" fill-opacity="0.15" cx="210" cy="210" r="210"></circle>
-    </svg>
-    <svg class="drawing triangle01" width="100px" height="100px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <polygon fill="#FFFFFF" fill-rule="evenodd" fill-opacity="0.15" points="0,0 100,0 50,100"></polygon>
-    </svg>
-    <svg class="drawing triangle02" width="100px" height="100px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <polygon fill="#FFFFFF" fill-rule="evenodd" fill-opacity="0.15" points="0,0 100,0 50,100"></polygon>
-    </svg>
-
-  </div>
-
-  <div class="block instructions">
-    <div class="row">
-
-      <div class="col-03">
-        <nav id="affix" class="nav-secondary">
-          <ul class="menu">
-            {% for instruction in site.instructions %}
-              <li class="menu-item"><a class="underlined" href="#{{ instruction.slug }}">{{ instruction.title }}</a></li>
-            {% endfor %}
-          </ul>
-          <ul class="menu02">
-            <li class="menu-item"><span class="version">{{site.version}}</span></li>
-            <li class="menu-item"><a class="underlined" href="{{site.repo}}">View on Github</a></li>
-            <li class="menu-item">Made by <a class="underlined" href="https://twitter.com/felixdorner">@felixdorner</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="col-09">
-        {% for instruction in site.instructions %}
-        <div class="item">
-          <h2 id="{{ instruction.slug }}" class="instruction-title">{{ instruction.title }}</h2>
-          {{ instruction.content }}
-        </div>
-        {% endfor %}
-      </div>
+      {% endfor %}
 
     </div>
   </div>
-
 </main>

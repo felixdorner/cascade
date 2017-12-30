@@ -1,0 +1,42 @@
+/* FLEXBOX */
+
+.u-flx { display: flex; }
+
+/* flex-direction: Rows or Columns */
+.u-flxd--row { flex-direction: row; }
+.u-flxd--rowrev { flex-direction: row-reverse; }
+.u-flxd--col { flex-direction: column; }
+.u-flxd--colrev { flex-direction: column-reverse; }
+
+/* justify-content: Align content on the main axis */
+.u-jc--start { justify-content: flex-start; }
+.u-jc--center { justify-content: center; }
+.u-jc--end { justify-content: flex-end; }
+.u-jc--space-around { justify-content: space-around; }
+.u-jc--space-between { justify-content: space-between; }
+
+/* flex-wrap: Items on one line or move to another */
+.u-flxw--nowrap { flex-wrap: nowrap; }
+.u-flxw--wrap { flex-wrap: wrap; }
+.u-flxw--wrap-rev { flex-wrap: wrap-reverse; }
+
+/* align-items: Items layout on the cross axis */
+.u-ai--stretch { align-items: stretch; }
+.u-ai--start { align-items: flex-start; }
+.u-ai--center { align-items: center; }
+.u-ai--end { align-items: flex-end; }
+.u-ai--baseline { align-items: baseline; }
+
+/* align-content: Alignment for items on multiple lines */
+.u-ac--start { align-content: flex-start; }
+.u-ac--center { align-content: center; }
+.u-ac--end { align-content: flex-end; }
+.u-ac--space-around { align-content: space-around; }
+.u-ac--space-between { align-content: space-between; }
+
+/* align-self: Individual layout of items on the cross axis (use on item) */
+.u-as--start { align-self: flex-start; }
+.u-as--center { align-self: flex-center; }
+.u-as--end { align-self: flex-end; }
+.u-as--stretch { align-self: stretch; }
+.u-as--baseline { align-self: baseline; }

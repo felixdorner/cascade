@@ -1,0 +1,6 @@
+---
+title: Components
+slug: components
+---
+
+Components are UI elements. They contain cosmetic CSS and they can be directly overwritten to fit your UI style kit.

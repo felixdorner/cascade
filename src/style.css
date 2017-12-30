@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*!
+
+  STARRRT
+  Version: 0.4.0
+  Author: Felix Dorner
+  Demo URI: https://felixdorner.github.io/starrrt/
+  Description: A minimal CSS starter-kit written with PostCSS & cssnext
+  License: MIT
+
+  Normalizing styles have been helped along thanks to the fine work of
+  Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+
+*/
+
+@import 'settings';
+@import 'base/base';
+@import 'objects/objects';
+@import 'components/components';
+@import 'utilities/utilities';

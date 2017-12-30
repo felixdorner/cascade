@@ -1,0 +1,6 @@
+/* DISPLAY */
+
+.u-dsp--inline { display: inline; }
+.u-dsp--inline-block { display: inline-block; }
+.u-dsp--block { display: block; }
+.u-dsp--hidden { display: none; }

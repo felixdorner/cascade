@@ -1,15 +1,23 @@
-<header class="block site-header">
-  <div class="row">
+<header class="o-container c-header">
+  <div class="o-grid">
+    <div class="o-grid__col u-span--12">
 
-    <div class="col-06 branding">
-      <a href="#">Starrrt <span>{{site.version}}</span></a>
+      <h1 class="u-ma--00">{{page.title}}</h1>
+      <p class="u-fs--03 u-lh--0104">{{page.description}}</p>
+
+      <nav id="affix" class="c-nav">
+        <ul class="c-nav__menu c-nav__menu--pri">
+          {% for instruction in site.instructions %}
+            <li><a href="#{{ instruction.slug }}">{{ instruction.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <ul class="c-nav__menu c-nav__menu--sec">
+          <li><span class="c-version">{{site.version}}</span></li>
+          <li><a href="{{site.repo}}">View on Github</a></li>
+          <li>Made by <a href="https://twitter.com/felixdorner">@felixdorner</a></li>
+        </ul>
+      </nav>
+
     </div>
-
-    <nav class="col-06 nav-primary">
-      <ul class="menu">
-        <li class="menu-item"><a class="cta" href="{{site.repo}}">View on Github</a></li>
-      </ul>
-    </nav>
-
   </div>
 </header>

@@ -1,0 +1,7 @@
+/* CLEARFIX */
+
+.u-cf::after {
+  display: table;
+  clear: both;
+  content: "";
+}

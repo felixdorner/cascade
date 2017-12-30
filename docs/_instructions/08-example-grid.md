@@ -1,17 +1,14 @@
 ---
-title: Grid System
-slug: grid
+title: Example Grid
+slug: example-grid
 ---
-
-<span class="info">Deprecation warning: The grid system will be replaced by a CSS Grid solution soon.</span>
 
 To leverage the grid system the HTML markup should follow this structure:
 
 ```
-├── .block
-│   ├── .row
-│   │   ├── .col-*
-│   │   │   ├── .item
+├── .o-container
+│   ├── .o-grid
+│   │   ├── .o-grid__col u-span--**
 ```
 
 Each `.block` element can hold one or more `.row` element(s) which can be filled with a 12 column grid. The maximum grid-width is set on the `.row` element. A row is always centered inside a `.block` element. Gutters are split equally with paddings on `.row` and `.col-*` elements. `.item` elements inside the column serve as content-holder.

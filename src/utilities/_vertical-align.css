@@ -1,0 +1,6 @@
+/* VERTICAL ALIGN */
+
+.u-va--top { vertical-align: top; }
+.u-va--middle { vertical-align: middle; }
+.u-va--bottom { vertical-align: bottom; }
+.u-va--baseline { vertical-align: baseline; }

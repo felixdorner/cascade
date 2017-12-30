@@ -7,7 +7,6 @@ body {
   line-height: 1.6;
   color: var(--color--primary);
   background-color: var(--color--light);
-  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 a,
@@ -21,13 +20,12 @@ a:hover,
 a:focus,
 a:active {
   outline: 0;
-  color: var(--color--secondary);
   opacity: 0.7;
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: var(--spacing--04);
+  margin-top: 0.4em;
+  margin-bottom: 1.2em;
 }
 
 b,
@@ -53,11 +51,11 @@ h4,
 h5,
 h6 {
   clear: both;
-  margin-top: 0;
-  margin-bottom: var(--spacing--04);
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
   font-family: var(--font--primary);
   font-weight: bold;
-  line-height: 1.6;
+  line-height: 1.4;
   word-wrap: break-word;
 
   & a,
@@ -73,20 +71,15 @@ h6 {
   }
 }
 
-h1, .h1 { font-size: 2.8em; }
-h2, .h2 { font-size: 2.2em; }
-h3, .h3 { font-size: 1.8em; }
-h4, .h4 { font-size: 1.4em; }
-h5, .h5 { font-size: 1.2em; }
-h6, .h6 { font-size: 1em; }
+h1 { font-size: var(--font-scale--01); }
+h2 { font-size: var(--font-scale--02); }
+h3 { font-size: var(--font-scale--03); }
+h4 { font-size: var(--font-scale--04); }
+h5 { font-size: var(--font-scale--05); }
+h6 { font-size: var(--font-scale--06); }
 
-small {
-  font-size: 0.8em;
-}
-
-big {
-  font-size: 1.2em;
-}
+small { font-size: var(--font-scale--06); }
+big { font-size: var(--font-scale--04); }
 
 blockquote,
 q {
@@ -94,12 +87,8 @@ q {
   margin: 0 0 var(--spacing--04);
   padding-left: var(--spacing--03);
   border-left: 4px solid var(--color--subtle-light);
-  font-size: 1.4em;
+  font-size: var(--font-scale--03);
   word-wrap: break-word;
-
-  p {
-    margin: 0;
-  }
 }
 
 pre {
@@ -119,7 +108,7 @@ tt,
 var {
   padding: 0.2em;
   font-family: var(--font--code);
-  font-size: 0.8em;
+  font-size: var(--font-scale--06);
   background: var(--color--subtle-light);
 }
 

@@ -1,12 +1,15 @@
 ---
-title: File Structure
+title: Structure
 slug: structure
 ---
 
+Starrrt outlines the file structure in the following way:
+
 ```
-├── variables.css
+├── settings.css
 ├── base/
 │   ├── _normalize.css
+│   ├── _box-sizing.css
 │   ├── _copy.css
 │   ├── _buttons.css
 │   ├── _forms.css
@@ -14,17 +17,28 @@ slug: structure
 │   ├── _tables.css
 │   ├── _media.css
 │   └── base.css
-├── grid/
-│   ├── _variables.css
-│   ├── _blocks.css
-│   ├── _rows.css
-│   ├── _columns.css
-│   ├── _shifts.css
-│   └── _items.css
-│   └── grid.css
-├── helpers/
+├── objects/
+│   ├── _container.css
+│   ├── _grid.css
+│   └── objects.css
+├── components/
+│   ├── _example.css
+│   └── components.css
+├── utilities/
 │   ├── _animations.css
-│   ├── _spacings.css
-│   └── helpers.css
-└── starrrt.css
+│   ├── _clearfix.css
+│   ├── _color.css
+│   ├── _display.css
+│   ├── _flexbox.css
+│   ├── _float.css
+│   ├── _margin.css
+│   ├── _padding.css
+│   ├── _position.css
+│   ├── _push.css
+│   ├── _span.css
+│   ├── _typo.css
+│   ├── _vertical-align.css
+│   ├── _z-index.css
+│   └── utilities.css
+└── style.css
 ```

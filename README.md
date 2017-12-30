@@ -1,8 +1,6 @@
 # STARRRT
 
-A minimal CSS starter-kit written with [PostCSS](http://postcss.org/) and [cssnext](http://cssnext.io/).
-
-**Note: This tool is currently in development - expect iterations!**
+Object-oriented CSS boilerplate built on top of [PostCSS](http://postcss.org/) and [cssnext](http://cssnext.io/).
 
 ## Contributing
 
@@ -10,8 +8,6 @@ Contributions are welcome:
 
 - Report bugs and make feature requests via the issue tracker
 - Please ask first before working on any significant pull request
-
-Consider that this tool's purpose is to stay as minimal as possible.
 
 ### Install Dependencies
 
