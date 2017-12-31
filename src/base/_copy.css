@@ -2,7 +2,7 @@
 
 body {
   font-family: var(--font--primary);
-  font-size: 18px;
+  font-size: var(--font-scale--base);
   font-weight: normal;
   line-height: 1.6;
   color: var(--color--primary);
@@ -41,7 +41,7 @@ i {
 }
 
 address {
-  margin-bottom: var(--spacing--04);
+  margin-bottom: 1.2em;
 }
 
 h1,
@@ -84,8 +84,8 @@ big { font-size: var(--font-scale--04); }
 blockquote,
 q {
   clear: both;
-  margin: 0 0 var(--spacing--04);
-  padding-left: var(--spacing--03);
+  margin: 0 0 1.2em;
+  padding-left: var(--grid--gutter);
   border-left: 4px solid var(--color--subtle-light);
   font-size: var(--font-scale--03);
   word-wrap: break-word;
@@ -94,8 +94,8 @@ q {
 pre {
   overflow: auto;
   max-width: 100%;
-  margin-bottom: var(--spacing--04);
-  padding: var(--spacing--03);
+  margin-bottom: 1.2em;
+  padding: 1.2em;
   font-family: var(--font--code);
   font-size: 0.8em;
   color: var(--color--primary);
@@ -126,7 +126,7 @@ ins {
 }
 
 hr {
-  margin: var(--spacing--04) 0;
+  margin: 1.8em 0;
   border-top: none;
   border-right: none;
   border-bottom: 1px solid var(--color--subtle-light);

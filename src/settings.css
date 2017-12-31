@@ -3,6 +3,8 @@
   --font--secondary: Athelas, Georgia, times, serif;
   --font--code: Consolas, Monaco, monospace;
 
+  --font-scale--base: 18px;
+
   --font-scale--01: 2.8em;
   --font-scale--02: 2em;
   --font-scale--03: 1.6em;
@@ -10,6 +12,7 @@
   --font-scale--05: 1em;
   --font-scale--06: 0.8em;
   --font-scale--07: 0.7em;
+  --font-scale--08: 0.6em;
 
   --color--primary: black;
   --color--secondary: cornflowerblue;

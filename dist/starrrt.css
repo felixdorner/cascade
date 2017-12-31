@@ -2,7 +2,7 @@
 /*!
 
   STARRRT
-  Version: 0.4.0
+  Version: 1.0.0-beta
   Author: Felix Dorner
   Demo URI: https://felixdorner.github.io/starrrt/
   Description: A minimal CSS starter-kit written with PostCSS & cssnext
@@ -267,7 +267,7 @@ i {
   font-style: italic;
 }
 address {
-  margin-bottom: 32px;
+  margin-bottom: 1.2em;
 }
 h1,
 h2,
@@ -334,8 +334,9 @@ big { font-size: 1.2em; }
 blockquote,
 q {
   clear: both;
-  margin: 0 0 32px;
-  padding-left: 16px;
+  margin: 0 0 1.2em;
+  padding-left: 32px;
+  padding-left: 2rem;
   border-left: 4px solid whitesmoke;
   font-size: 1.6em;
   word-wrap: break-word;
@@ -343,8 +344,8 @@ q {
 pre {
   overflow: auto;
   max-width: 100%;
-  margin-bottom: 32px;
-  padding: 16px;
+  margin-bottom: 1.2em;
+  padding: 1.2em;
   font-family: Consolas, Monaco, monospace;
   font-size: 0.8em;
   color: black;
@@ -371,7 +372,7 @@ ins {
   background: whitesmoke;
 }
 hr {
-  margin: 32px 0;
+  margin: 1.8em 0;
   border-top: none;
   border-right: none;
   border-bottom: 1px solid whitesmoke;
@@ -815,6 +816,34 @@ object {
 .u-bg--success { background-color: mediumspringgreen; }
 .u-bg--warning { background-color: gold; }
 .u-bg--error { background-color: indianred; }
+/* TYPO */
+.u-ff--primary { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+.u-ff--secondary { font-family: Athelas, Georgia, times, serif; }
+.u-ff--code { font-family: Consolas, Monaco, monospace; }
+.u-ta--center { text-align: center; }
+.u-ta--left { text-align: left; }
+.u-ta--right { text-align: right; }
+.u-tt--upper { text-transform: uppercase; }
+.u-tt--lower { text-transform: lowercase; }
+.u-tt--capital { text-transform: capitalize; }
+.u-fst--normal { font-style: normal; }
+.u-fst--italic { font-style: italic; }
+.u-fw--normal { font-weight: normal; }
+.u-fw--bold { font-weight: bold; }
+.u-lh--0000 { line-height: 0; }
+.u-lh--0100 { line-height: 1; }
+.u-lh--0102 { line-height: 1.2; }
+.u-lh--0104 { line-height: 1.4; }
+.u-lh--0106 { line-height: 1.6; }
+.u-lh--0108 { line-height: 1.8; }
+.u-fs--01 { font-size: 2.8em; }
+.u-fs--02 { font-size: 2em; }
+.u-fs--03 { font-size: 1.6em; }
+.u-fs--04 { font-size: 1.2em; }
+.u-fs--05 { font-size: 1em; }
+.u-fs--06 { font-size: 0.8em; }
+.u-fs--07 { font-size: 0.7em; }
+.u-fs--08 { font-size: 0.6em; }
 /* DISPLAY */
 .u-dsp--inline { display: inline; }
 .u-dsp--inline-block { display: inline-block; }
@@ -1126,33 +1155,6 @@ object {
   .u-span--11x[class*="u-span--"] { width: 91.66663%; }
   .u-span--12x[class*="u-span--"] { width: 100%; }
 }
-/* TYPO */
-.u-ff--primary { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
-.u-ff--secondary { font-family: Athelas, Georgia, times, serif; }
-.u-ff--code { font-family: Consolas, Monaco, monospace; }
-.u-ta--center { text-align: center; }
-.u-ta--left { text-align: left; }
-.u-ta--right { text-align: right; }
-.u-tt--upper { text-transform: uppercase; }
-.u-tt--lower { text-transform: lowercase; }
-.u-tt--capital { text-transform: capitalize; }
-.u-fst--normal { font-style: normal; }
-.u-fst--italic { font-style: italic; }
-.u-fw--normal { font-weight: normal; }
-.u-fw--bold { font-weight: bold; }
-.u-lh--0000 { line-height: 0; }
-.u-lh--0100 { line-height: 1; }
-.u-lh--0102 { line-height: 1.2; }
-.u-lh--0104 { line-height: 1.4; }
-.u-lh--0106 { line-height: 1.6; }
-.u-lh--0108 { line-height: 1.8; }
-.u-fs--01 { font-size: 2.8em; }
-.u-fs--02 { font-size: 2em; }
-.u-fs--03 { font-size: 1.6em; }
-.u-fs--04 { font-size: 1.2em; }
-.u-fs--05 { font-size: 1em; }
-.u-fs--06 { font-size: 0.8em; }
-.u-fs--07 { font-size: 0.7em; }
 /* VERTICAL ALIGN */
 .u-va--top { vertical-align: top; }
 .u-va--middle { vertical-align: middle; }

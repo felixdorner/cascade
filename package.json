@@ -1,11 +1,11 @@
 {
-  "name": "starrrt",
-  "version": "0.4.0",
-  "description": "A minimal CSS starter-kit written with PostCSS & cssnext",
+  "name": "StarrrtCSS",
+  "version": "1.0.0-beta",
+  "description": "Object-oriented CSS boilerplate built on top of PostCSS and cssnext",
   "main": "dist/starrrt.min.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felixdorner/starrrt"
+    "url": "https://github.com/felixdorner/starrrtcss"
   },
   "scripts": {
     "css:normal": "postcss -u postcss-easy-import -u postcss-cssnext -o dist/starrrt.css src/style.css",

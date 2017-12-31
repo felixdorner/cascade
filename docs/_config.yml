@@ -1,7 +1,8 @@
 # Custom variables
-version:  v0.4.0
-repo:     https://github.com/felixdorner/starrrt
-download: https://github.com/felixdorner/starrrt/releases/download/v0.4.0/starrrt.min.css
+docs-ver: v1.0.0-beta
+src-ver:  v1.0.0-beta
+repo:     https://github.com/felixdorner/starrrtcss
+download: https://github.com/felixdorner/starrrtcss/releases/latest
 
 # Collections
 collections:
