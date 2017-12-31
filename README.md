@@ -4,13 +4,13 @@ Object-oriented CSS boilerplate built on top of [PostCSS](http://postcss.org/) a
 
 ## Usage
 
-Read the docs [here](https://felixdorner.github.io/starrrtcss/).
+Read the docs [here](https://felixdorner.github.io/StarrrtCSS/).
 
 ## Contributing
 
 Contributions are welcome:
 
-- Report bugs and make feature requests via the [issue tracker](https://github.com/felixdorner/starrrtcss/issues)
+- Report bugs and make feature requests via the [issue tracker](https://github.com/felixdorner/StarrrtCSS/issues)
 - Please ask first before working on any significant pull request
 
 ### Install Dependencies
@@ -40,6 +40,6 @@ The docs are build with [Jekyll](https://jekyllrb.com/). Navigate to the /docs d
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/felixdorner/starrrtcsss/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/felixdorner/StarrrtCSS/blob/master/LICENSE) file for details.
 
 Copyright © 2017-2018 Felix Dorner, All Rights Reserved.

@@ -1,9 +1,10 @@
 # StarrrtCSS Changelog
 
-### *20171231* - 0.4.0 - 1.0.0-beta
+### *20171231* - 0.4.0 - 1.0.0-beta.1
 * **NEW** Docs: Favicon & social images
 * **TWEAK** Src: Base style improvements
 * **TWEAK** Docs: Improved wording
+* **TWEAK** Docs: Removed jQuery
 
 ### *20171230* - 0.3.0 - 0.4.0
 * **NEW** Src: New object-oriented architecture
