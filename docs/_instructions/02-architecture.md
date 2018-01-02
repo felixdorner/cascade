@@ -27,6 +27,46 @@ Objects are class-based selectors which define undecorated design patterns like 
 
 Components are UI elements. They consist mostly of cosmetic CSS but can also incorporate structural rules if they only affect the corresponding component itself.
 
-### Utilitis
+### Utilities
 
 Utilities are high-specificity, very explicit classes. They are used as overrides or for rapid prototyping.
+
+### File structure
+
+```
+├── settings.css
+├── base/
+│   ├── _normalize.css
+│   ├── _box-sizing.css
+│   ├── _copy.css
+│   ├── _buttons.css
+│   ├── _forms.css
+│   ├── _lists.css
+│   ├── _tables.css
+│   ├── _media.css
+│   └── base.css
+├── objects/
+│   ├── _container.css
+│   ├── _grid.css
+│   └── objects.css
+├── components/
+│   ├── _example.css
+│   └── components.css
+├── utilities/
+│   ├── _animations.css
+│   ├── _clearfix.css
+│   ├── _color.css
+│   ├── _copy.css
+│   ├── _display.css
+│   ├── _flexbox.css
+│   ├── _float.css
+│   ├── _margin.css
+│   ├── _padding.css
+│   ├── _position.css
+│   ├── _push.css
+│   ├── _span.css
+│   ├── _vertical-align.css
+│   ├── _z-index.css
+│   └── utilities.css
+└── style.css
+```

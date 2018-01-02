@@ -11,5 +11,3 @@ Here is a section with a centered grid and two responsive columns:
 │   │   ├── .o-grid__col u-span--12 u-span--06m u-span--08l
 │   │   ├── .o-grid__col u-span--12 u-span--06m u-span--04l
 ```
-
-*Note: Spans overwrite each other from small to large breakpoints.*
