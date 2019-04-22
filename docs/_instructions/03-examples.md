@@ -51,13 +51,11 @@ To leverage the grid system the HTML markup should follow such kind of structure
 ```
 .o-container
   .o-grid
-    .o-grid__col u-span--06 /
-    .o-grid__col u-span--06 /
-  /
-/
+    .o-grid__col .u-span--06
+    .o-grid__col .u-span--06
 ```
 
-Each `.o-grid` element can hold one or more `.o-grid__col` element(s) which can be sized or pushed with specific utility classes. The maximum grid-width is set on the `.o-grid` element. The grid is always centered inside the `.o-container` element. Gutters are split equally with paddings on `.o-grid` and `.o-grid__col` elements.
+Each `.o-grid` element can hold one or more `.o-grid__col` element(s) which can be sized or pushed with specific utility classes. The maximum grid-width is set on the `.o-grid` element. The grid is always centered inside the `.o-container` element. Gutters are split equally with paddings on `.o-grid__col` elements.
 
 #### Columns & Shifts
 
@@ -73,10 +71,8 @@ Each `.o-grid` element can hold one or more `.o-grid__col` element(s) which can 
 ```
 .o-container
   .o-grid
-    .o-grid__col u-span--12 u-span--06m u-span--08l /
-    .o-grid__col u-span--12 u-span--06m u-span--04l /
-  /
-/
+    .o-grid__col u-span--12 .u-span--06m .u-span--08l
+    .o-grid__col u-span--12 .u-span--06m .u-span--04l
 ```
 
 *Note:* Breakpoints overwrite each other from small to large (mobile-first approach).
