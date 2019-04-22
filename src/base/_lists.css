@@ -2,7 +2,7 @@
 
 ul,
 ol {
-  margin: 0 0 1.2em;
+  margin: 0 0 1.4em;
   padding-left: var(--grid--gutter);
 }
 
@@ -15,14 +15,14 @@ li > ol {
 }
 
 dl {
-  margin-bottom: 1.2em;
+  margin-bottom: 1.4em;
 }
 
 dt {
-  margin-bottom: 1.2em;
+  margin-bottom: 1.4em;
   font-weight: bold;
 }
 
 dd {
-  margin: 0 0 1.2em;
+  margin: 0 0 1.4em;
 }

@@ -3,28 +3,18 @@
   --font--secondary: Athelas, Georgia, times, serif;
   --font--code: Consolas, Monaco, monospace;
 
-  --font-scale--base: 18px;
+  --color--primary: #161616;
+  --color--secondary: #0020FF;
+  --color--subtle: #D2D2D2;
+  --color--subtle-dark: #A2A2A2;
+  --color--subtle-light: #F5F5F5;
+  --color--light: #FFFFFF;
+  --color--success: #48B260;
+  --color--warning: #F0B242;
+  --color--error: #CC4444;
 
-  --font-scale--01: 2.8em;
-  --font-scale--02: 2em;
-  --font-scale--03: 1.6em;
-  --font-scale--04: 1.2em;
-  --font-scale--05: 1em;
-  --font-scale--06: 0.8em;
-  --font-scale--07: 0.7em;
-  --font-scale--08: 0.6em;
-
-  --color--primary: black;
-  --color--secondary: cornflowerblue;
-  --color--subtle: lightgrey;
-  --color--subtle-light: whitesmoke;
-  --color--light: white;
-  --color--success: mediumspringgreen;
-  --color--warning: gold;
-  --color--error: indianred;
-
-  --grid--max-width: 1170px;
-  --grid--gutter: 2rem;
+  --grid--max-width: 1184px;
+  --grid--gutter: 32px;
 
   --span--01: calc(100% / 12);
   --span--02: calc((100% / 12) * 2);

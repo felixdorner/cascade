@@ -2,8 +2,10 @@
   <div class="o-grid">
     <div class="o-grid__col u-span--12">
 
-      <h1 class="u-ma--00">{{page.title}}</h1>
-      <p class="u-fs--03 u-lh--0104">{{page.description}}</p>
+      <div class="c-header__title">
+        <h1 class="u-ma--00">{{page.title}}</h1>
+        <p class="c-header__subtitle">{{page.description}}</p>
+      </div>
 
       <nav id="affix" class="c-nav">
         <ul class="c-nav__menu c-nav__menu--pri">
@@ -12,7 +14,7 @@
           {% endfor %}
         </ul>
         <ul class="c-nav__menu c-nav__menu--sec">
-          <li><span class="c-version">{{site.src-ver}}</span></li>
+          <li><a href="https://github.com/felixdorner/baseline/releases/latest" class="c-version">Download {{site.src-ver}}</a></li>
           <li><a href="{{site.repo}}">View on Github</a></li>
           <li>Made by <a href="https://twitter.com/felixdorner">@felixdorner</a></li>
         </ul>

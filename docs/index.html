@@ -1,6 +1,6 @@
 ---
-title: StarrrtCSS
-description: Object-oriented CSS boilerplate built on top of PostCSS and cssnext.
+title: Baseline
+description: CSS starter-kit built on top of PostCSS
 layout: base
 ---
 
@@ -9,8 +9,8 @@ layout: base
     <div class="o-grid__col u-span--12">
 
       {% for instruction in site.instructions %}
-      <div class="c-content__item">
-        <h2 id="{{ instruction.slug }}">{{ instruction.title }}</h2>
+      <div id="{{ instruction.slug }}" class="c-content__item">
+        <h2>{{ instruction.title }}</h2>
         {{ instruction.content }}
       </div>
       {% endfor %}

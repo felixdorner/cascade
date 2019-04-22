@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/*
+
+	Styles for Baseline Docs
+	Version: 1.0.0-beta.4
+
+  TODO: Add vendor prefixes
+
+*/
+
+body {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+body,
+h1, h2, h3, h4, h5, h6 {
+  font-family: AvenirLTStd-Book, avenir, 'avenir next', -apple-system, BlinkMacSystemFont, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+  font-weight: normal;
+  color: #0D0D0D;
+}
+
+h1 { font-size: 2.4em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.4em; }
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: #0D0D0D;
+  text-decoration: none;
+  border-bottom: 1px solid #dde8ff;
+}
+
+button {
+  background: #71a0ff;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border: 1px solid #71a0ff;
+}
+
+ol, ul {
+  padding-left: 1.2em;
+}
+
+pre,
+code {
+  font-size: 0.8rem;
+  color: #5e94ff;
+  background: #f6f9ff;
+  border-radius: 4px;
+}
+
+pre {
+  border: 1px solid #eaf1ff;
+}
+
+/* Page */
+
+.o-container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.o-grid__col {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.c-page--left {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #f9d8eb;
+  display: flex;
+  align-items: center;
+}
+
+.c-page--left img {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.c-page--right {
+  position: relative;
+  width: 100%;
+}
+
+@media screen and (min-width: 740px) {
+  .c-page--left {
+    position: fixed;
+    width: 50%;
+  }
+
+  .c-page--right {
+    width: 50%;
+    margin-left: 50%;
+  }
+}
+
+/* Header */
+
+.c-header.o-container {
+  padding-bottom: 0;
+}
+
+.c-header .o-grid__col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(100vh - 64px);
+}
+
+.c-header__subtitle {
+  color: #c7c7c7;
+  font-size: 1.4em;
+}
+
+.c-nav {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.c-nav__menu {
+  float: left;
+  width: calc(50% - 32px);
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.c-nav__menu--pri {
+  font-size: 1em;
+  line-height: 2;
+  border-right: 1px solid #f5f5f5;
+  margin-right: 64px;
+}
+
+.c-nav__menu--sec {
+  font-size: 0.6em;
+  line-height: 2;
+}
+
+a.c-version {
+  display: inline-block;
+  background: #71a0ff;
+  padding: 0.8em 1.2em 0.4em;
+  color: white;
+  border-radius: 2px;
+  border-bottom: none;
+  margin-bottom: 16px;
+}
+
+a.c-version:hover {
+  color: white;
+}
+
+/* Content */
+
+.c-content__item {
+  margin-bottom: 64px;
+  background: white;
+  box-shadow: 0px 0px 20px rgba(0,0,0, 0.05);
+  padding: 3rem;
+  border-radius: 8px;
+}
+
+/* FAQ */
+
+.c-faq {
+  margin-bottom: 1.4em;
+}
+
+.c-faq__item {
+  padding: 14px 16px 4px;
+  background: #f9f9f9;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.c-faq__item-title {
+  font-size: 1em;
+	cursor: pointer;
+  margin-bottom: 0.2em;
+}
+
+.c-faq__item-title::after {
+  content: '●';
+  float: right;
+  padding-top: 4px;
+  font-size: 0.6em;
+  opacity: 0.2;
+  transition: opacity 0.4s ease;
+}
+
+.c-faq__item-title:hover::after,
+.c-faq__item-title.is-active::after {
+  opacity: 1;
+}
+
+.c-faq__item-content {
+  display: none;
+  font-size: 0.8em;
+  margin-top: 16px;
+}
+
+
+/* Footer */
+
+.c-footer {
+  font-size: 0.6em;
+}
+
+.c-footer p {
+  margin: 0;
+}

@@ -1,8 +1,8 @@
 # Custom variables
 docs-ver: v1.0.0-beta.3
-src-ver:  v1.0.0-beta.1
-repo:     https://github.com/felixdorner/StarrrtCSS
-download: https://github.com/felixdorner/StarrrtCSS/releases/latest
+src-ver:  v1.0.0-beta.2
+repo:     https://github.com/felixdorner/baseline
+download: https://github.com/felixdorner/baseline/releases/latest
 
 # Collections
 collections:

@@ -3,70 +3,42 @@ title: Architecture
 slug: architecture
 ---
 
-One of the main aspects of StarrrtCSS is to encourage a sane and scalable CSS architecture. Therefor styles are grouped into the following categories:
+Styles are grouped into the following categories:
 
-1. Settings
-2. Base
-3. Objects
-4. Components
-5. Utilities
+<div class="c-faq">
+<div class="c-faq__item">
+<h4 class="c-faq__item-title">Settings</h4>
+<div class="c-faq__item-content" markdown="1">
+Settings contain global configurations like custom properties and breakpoints which are shared across the system.
+</div>
+</div>
 
-### Settings
+<div class="c-faq__item">
+<h4 class="c-faq__item-title">Base</h4>
+<div class="c-faq__item-content" markdown="1">
+Base styles are default styles of base elements like body, headings or paragraphs without ID or class selectors. These styles serve as the foundation.
+</div>
+</div>
 
-The settings file contains global configurations like variables and breakpoints which are shared across the system.
+<div class="c-faq__item">
+<h4 class="c-faq__item-title">Objects</h4>
+<div class="c-faq__item-content" markdown="1">
+Objects are class-based selectors which define design patterns like containers or grids shared across the system. Classes of this category are prefixed with `o-`.
+</div>
+</div>
 
-### Base
+<div class="c-faq__item">
+<h4 class="c-faq__item-title">Components</h4>
+<div class="c-faq__item-content" markdown="1">
+Components are independent parts of any system. However, unity only exists when design elements are in agreement. Therefore, components here are not entirely isolated as they inherit base styles while taking-in specific component-related styles of this category. Classes of this category are prefixed with `c-`.
+</div>
+</div>
 
-Base styles are the default styles of base elements without ID or class selectors.
+<div class="c-faq__item">
+<h4 class="c-faq__item-title">Utilities</h4>
+<div class="c-faq__item-content" markdown="1">
+Utilities are high-specificity, very explicit style rules which serve one purpose. Classes of this category are prefixed with `u-`.
+</div>
+</div>
 
-### Objects
-
-Objects are class-based selectors which define undecorated design patterns like containers or grids. They provide structure to your page and do not contain any cosmetic CSS.
-
-### Components
-
-Components are UI elements. They consist mostly of cosmetic CSS but can also incorporate structural rules if they only affect the corresponding component itself.
-
-### Utilities
-
-Utilities are high-specificity, very explicit classes. They are used as overrides or for rapid prototyping.
-
-### File structure
-
-```
-├── settings.css
-├── base/
-│   ├── _normalize.css
-│   ├── _box-sizing.css
-│   ├── _copy.css
-│   ├── _buttons.css
-│   ├── _forms.css
-│   ├── _lists.css
-│   ├── _tables.css
-│   ├── _media.css
-│   └── base.css
-├── objects/
-│   ├── _container.css
-│   ├── _grid.css
-│   └── objects.css
-├── components/
-│   ├── _example.css
-│   └── components.css
-├── utilities/
-│   ├── _animations.css
-│   ├── _clearfix.css
-│   ├── _color.css
-│   ├── _copy.css
-│   ├── _display.css
-│   ├── _flexbox.css
-│   ├── _float.css
-│   ├── _margin.css
-│   ├── _padding.css
-│   ├── _position.css
-│   ├── _push.css
-│   ├── _span.css
-│   ├── _vertical-align.css
-│   ├── _z-index.css
-│   └── utilities.css
-└── style.css
-```
+</div>

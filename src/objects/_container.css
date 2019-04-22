@@ -1,7 +1,5 @@
 /* CONTAINER */
 
 .o-container {
-  position: relative;
-  padding-top: var(--spacing--06);
-  padding-bottom: var(--spacing--06);
+  position: relative;  
 }

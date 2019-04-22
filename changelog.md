@@ -1,4 +1,12 @@
-# StarrrtCSS Changelog
+# Baseline Changelog
+
+### *20190422* - 1.0.0-beta.2
+* **NEW** Docs: Changed the branding (name & look)
+* **TWEAK** Src: Removed unnecessary utilities
+* **TWEAK** Src: Got rid of font sizes as custom properties
+* **TWEAK** Src: Minor style improvements
+* **TWEAK** Docs: Improved wording
+* **DEV** Switched from cssnext to postcss-preset-env 
 
 ### *20171231* - 0.4.0 - 1.0.0-beta.1
 * **NEW** Docs: Favicon & social images
