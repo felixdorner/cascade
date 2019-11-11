@@ -206,7 +206,7 @@ pre {
   background-size: cover;
   background-position: center;
   text-align: center;
-  min-height: 360px;
+  min-height: 400px;
 }
 
 .c-header__btn-group {
@@ -234,3 +234,27 @@ pre {
   max-width: 600px;
   margin: 0 auto;
 }
+
+/* Demo */
+
+/* .c-demo-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  padding: 32px 56px;
+}
+
+.c-demo-header__branding h1 {
+  font-size: 1.6em;
+  margin-bottom: 0px;
+}
+
+.c-demo-header__subtitle {
+  margin-bottom: 0;
+}
+
+.c-demo-header__btn-group {
+
+} */
