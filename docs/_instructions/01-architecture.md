@@ -3,7 +3,7 @@ title: Architecture
 slug: architecture
 ---
 
-Styles are grouped into the following categories:
+Baseline is intended to be used as a simple starting point when writing CSS. It helps to create and maintain a mindful and scalable CSS structure. Therefore, styles are grouped into the following categories:
 
 Settings  
 <span class="subtle-text">Settings contain global configurations like custom properties and breakpoints which are shared across the system.</span>
