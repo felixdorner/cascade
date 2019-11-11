@@ -22,18 +22,18 @@ textarea {
   border-radius: 2px;
   font-family: var(--font--primary);
   font-size: 0.8em;
-  color: var(--color--primary);
+  color: var(--color--main);
   appearance: none;
 
   &:focus {
-    border: 1px solid var(--color--secondary);
+    border: 1px solid var(--color--accent);
     outline: none;
-    color: var(--color--primary);
+    color: var(--color--main);
   }
 }
 
 select {
-  border: 1px solid var(--color--subtle-light);
+  border: 1px solid var(--color--subtle-lighter);
 }
 
 textarea {

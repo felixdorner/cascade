@@ -8,11 +8,13 @@
   max-width: var(--grid--max-width);
   margin-right: auto;
   margin-left: auto;
+  padding-left: calc(var(--grid--gutter) / 2);
+  padding-right: calc(var(--grid--gutter) / 2);
 }
 
 .o-grid__col {
   position: relative;
   display: inline-block;
-  padding-left: var(--grid--gutter);
-  padding-right: var(--grid--gutter);
+  padding-left: calc(var(--grid--gutter) / 2);
+  padding-right: calc(var(--grid--gutter) / 2);
 }

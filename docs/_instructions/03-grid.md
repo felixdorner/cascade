@@ -1,9 +1,9 @@
 ---
-title: Grid system
+title: Grid System
 slug: grid
 ---
 
-To leverage the simple grid system, the HTML markup should follow a specific structure:
+Baseline provides a grid system for simple layout explorations. To use it, the HTML markup should follow a specific structure:
 
 ```
 .o-container
@@ -12,24 +12,23 @@ To leverage the simple grid system, the HTML markup should follow a specific str
     .o-grid__col .u-span--06
 ```
 
-Each `.o-grid` element can hold one or more `.o-grid__col` element(s) which can be sized or pushed with specific utility classes. The maximum grid-width is set on the `.o-grid` element. The grid is always centered inside the `.o-container` element. Gutters are split equally with paddings on `.o-grid__col` elements.
+Each `.o-grid` element can hold one or more `.o-grid__col` element(s) which can be sized or pushed with specific utility classes like `.u-span--*` or `.u-push--*` with modifiers ranging from 01 to 12. The modifiers represent the column-width based on overall 12 columns.
 
-#### Columns & Shifts
+The maximum grid-width is set on the .o-grid element. The grid is always centered inside the .o-container element. Gutters are split horizontally with paddings on `.o-grid` and `.o-grid__col` elements.
 
-`.o-grid__col` elements can be supplemented with utility classes like `.u-span--*` or `.u-push--*` with modifiers ranging from `01` to `12`. The modifiers represent the column-width based on overall 12 columns. To set widths and shifts for certain breakpoints append another modifier at the end:
+![Grid System](/assets/img/grid-system@2x.png)
 
-`s`: Append to adjust for small breakpoint  
-`m`: Append to adjust for medium breakpoint  
-`l`: Append to adjust for large breakpoint  
-`x`: Append to adjust for extra large breakpoint
+#### Responsiveness
 
-#### Example
+To set widths and shifts individually for the 4 custom breakpoints defined in the settings.css append the following modifiers at the end: sm, md, lg, xl
+
+Example:
 
 ```
 .o-container
   .o-grid
-    .o-grid__col .u-span--12 .u-span--06m .u-span--08l
-    .o-grid__col .u-span--12 .u-span--06m .u-span--04l
+    .o-grid__col .u-span--12 .u-span--06md .u-span--08lg
+    .o-grid__col .u-span--12 .u-span--06md .u-span--04lg
 ```
 
-<small>Breakpoints overwrite each other from small to large (mobile-first approach).</small>
+Note: Breakpoints overwrite each other from small to large!

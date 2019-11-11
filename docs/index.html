@@ -4,17 +4,15 @@ description: CSS starter-kit built on top of PostCSS
 layout: base
 ---
 
-<main class="o-container c-content">
-  <div class="o-grid">
-    <div class="o-grid__col u-span--12">
+<main>
 
-      {% for instruction in site.instructions %}
-      <div id="{{ instruction.slug }}" class="c-content__item">
-        <h2>{{ instruction.title }}</h2>
-        {{ instruction.content }}
-      </div>
-      {% endfor %}
-
+  {% for instruction in site.instructions %}
+  <div id="{{ instruction.slug }}" class="c-item">
+    <div class="c-item__inside">
+      <h2>{{ instruction.title }}</h2>
+      {{ instruction.content }}
     </div>
   </div>
+  {% endfor %}
+
 </main>

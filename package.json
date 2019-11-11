@@ -1,8 +1,7 @@
 {
   "name": "Baseline",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "CSS starter-kit built on top of PostCSS",
-  "main": "dist/baseline.min.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/felixdorner/baseline"

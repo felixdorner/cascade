@@ -17,12 +17,4 @@
     });
   });
 
-  /*--------------------------------------------------------------
-	Accordion
-	--------------------------------------------------------------*/
-
-  $(".c-faq__item").on("click", ".c-faq__item-title", function() {
-    $(this).toggleClass("is-active").next().slideToggle();
-  });
-
 }( jQuery ) );

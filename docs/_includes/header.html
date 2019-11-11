@@ -1,25 +1,12 @@
-<header class="o-container c-header">
-  <div class="o-grid">
-    <div class="o-grid__col u-span--12">
+<header class="c-header" style="background-image:url('{{site.baseurl}}/assets/img/header-bg.jpg');">
 
-      <div class="c-header__title">
-        <h1 class="u-ma--00">{{page.title}}</h1>
-        <p class="c-header__subtitle">{{page.description}}</p>
-      </div>
-
-      <nav id="affix" class="c-nav">
-        <ul class="c-nav__menu c-nav__menu--pri">
-          {% for instruction in site.instructions %}
-            <li><a href="#{{ instruction.slug }}">{{ instruction.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="c-nav__menu c-nav__menu--sec">
-          <li><a href="https://github.com/felixdorner/baseline/releases/latest" class="c-version">Download {{site.src-ver}}</a></li>
-          <li><a href="{{site.repo}}">View on Github</a></li>
-          <li>Made by <a href="https://twitter.com/felixdorner">@felixdorner</a></li>
-        </ul>
-      </nav>
-
-    </div>
+  <div class="c-header__btn-group">
+    <a class="c-btn c-btn--inv" href="{{site.repo}}">View on Github</a>
+    <a class="c-btn" href="https://github.com/felixdorner/baseline/releases/latest">Download</a>
   </div>
+
+  <div>
+    <img class="c-header__illu" src="{{site.baseurl}}/assets/img/baseline-illu@2x.png" alt="Baseline cover illustration"/>
+  </div>
+
 </header>

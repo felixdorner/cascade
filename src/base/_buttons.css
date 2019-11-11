@@ -10,7 +10,7 @@ input[type="submit"] {
   font-size: 0.8em;
   cursor: pointer;
   color: var(--color--light);
-  background: var(--color--secondary);
+  background: var(--color--accent);
   transition: opacity 0.2s linear;
   appearance: none;
 

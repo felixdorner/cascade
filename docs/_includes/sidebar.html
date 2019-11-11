@@ -1,0 +1,22 @@
+<aside class="c-sidebar">
+
+  <div class="c-sidebar__title">
+    <h1>{{page.title}}</h1>
+    <p class="c-sidebar__subtitle">{{page.description}}</p>
+    <span class="c-sidebar__label">{{site.src-ver}}</span>
+  </div>
+
+  <nav id="affix" class="c-nav">
+    <ul class="c-nav__menu">
+      {% for instruction in site.instructions %}
+        <li><a href="#{{ instruction.slug }}">{{ instruction.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="c-sidebar__credits">
+    <p>MIT-licensed<br />
+      &copy; {{ 'now' | date: "%Y" }} <a href="https://felixdorner.de/">Felix Dorner</a></p>
+  </div>
+
+</aside>

@@ -1,3 +1,11 @@
+---
+title: Settings
+slug: settings
+---
+
+These are the settings Baseline is shipped with. Feel free to add your own:
+
+```
 :root {
   --font--primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font--secondary: Athelas, Georgia, times, serif;
@@ -13,8 +21,8 @@
   --color--warning: #F0B242;
   --color--error: #CC4444;
 
-  --grid--max-width: 1184px;
-  --grid--gutter: 32px;
+  --grid--max-width: 1304px;
+  --grid--gutter: 28px;
 
   --span--01: calc(100% / 12);
   --span--02: calc((100% / 12) * 2);
@@ -41,7 +49,8 @@
   --spacing--10: 224px;
 }
 
-@custom-media --breakpoint--s screen and (min-width: 480px);
-@custom-media --breakpoint--m screen and (min-width: 740px);
-@custom-media --breakpoint--l screen and (min-width: 960px);
-@custom-media --breakpoint--x screen and (min-width: 1140px);
+@custom-media --breakpoint--sm screen and (min-width: 480px);
+@custom-media --breakpoint--md screen and (min-width: 740px);
+@custom-media --breakpoint--lg screen and (min-width: 960px);
+@custom-media --breakpoint--xl screen and (min-width: 1140px);
+```

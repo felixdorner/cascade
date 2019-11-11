@@ -1,5 +1,12 @@
 # Baseline Changelog
 
+### *20191111*
+* **NEW** Docs: Changed the look
+* **TWEAK** Docs: Improved wording
+* **TWEAK** Src: Improved grid paddings
+* **TWEAK** Src: Changed names of variables
+* **DEV** Upgraded dependencies
+
 ### *20190618*
 * **NEW** Docs: Changed the look
 * **TWEAK** Docs: Improved wording
