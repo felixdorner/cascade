@@ -41,7 +41,7 @@
   --spacing--10: 224px;
 }
 
-@custom-media --breakpoint--s screen and (min-width: 480px);
-@custom-media --breakpoint--m screen and (min-width: 740px);
-@custom-media --breakpoint--l screen and (min-width: 960px);
-@custom-media --breakpoint--x screen and (min-width: 1140px);
+@custom-media --breakpoint--sm screen and (min-width: 480px);
+@custom-media --breakpoint--md screen and (min-width: 740px);
+@custom-media --breakpoint--lg screen and (min-width: 960px);
+@custom-media --breakpoint--xl screen and (min-width: 1140px);
