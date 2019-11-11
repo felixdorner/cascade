@@ -16,7 +16,7 @@ Each `.o-grid` element can hold one or more `.o-grid__col` element(s) which can 
 
 The maximum grid-width is set on the .o-grid element. The grid is always centered inside the .o-container element. Gutters are split horizontally with paddings on `.o-grid` and `.o-grid__col` elements.
 
-![Grid System](/assets/img/grid-system@2x.png)
+![Grid System](../assets/img/grid-system@2x.png)
 
 #### Responsiveness
 
