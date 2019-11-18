@@ -1,0 +1,185 @@
+<section id="{{ instruction.slug }}" class="o-container o-container--padded">
+  <div class="o-grid">
+    <div class="o-grid__col u-span--12 u-span--08md u-span--06lg u-push--02md u-push--03lg">
+
+      <h2>{{ instruction.title }}</h2>
+
+      <figure>
+        <img src="https://felixdorner.de/wp-content/uploads/2018/02/venice-beach-skater.jpg" alt="Placeholder Image">
+        <figcaption>This is an image with a caption</figcaption>
+      </figure>
+
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+      <p>Catch a short <abbr title="Abbreviations">abbr</abbr> here. This is <b>strong</b> and this is <em>emphasized</em>! And heck, here's a <a href="#">link</a>. H<sub>2</sub>O is cool<sup>yep</sup>.</p>
+
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+
+      <p>Use &lt;mark&gt; to <mark>highlight the important stuff</mark>, use &lt;ins&gt; <ins>when you have inserted content afterwards</ins> and use &lt;del&gt; <del>when you have deleted content later in the process</del>.</p>
+
+      <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+        <p>'The HTML blockquote Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote#Usage_notes">Notes</a> for how to change it). A URL for the source of the quotation may be given using the <code>cite</code> attribute, while a text representation of the source can be given using the <code>&lt;cite&gt;</code> cite element.'</p>
+        <footer>
+          <cite>MDN, 'The Block Quotation element'</cite>
+        </footer>
+      </blockquote>
+
+      <p>Inline &lt;q&gt; element: When Dave asks HAL to open the pod bay door, HAL answers: <q cite="https://www.imdb.com/title/tt0062622/quotes/qt0396921">I'm sorry, Dave. I'm afraid I can't do that.</q></p>
+
+      <details>
+        <summary>Click to Open...</summary>
+        <p>The HTML Details Element (details) creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state. A summary or label can be provided using the summary element.</p>
+      </details>
+
+      <details open="">
+        <summary>Click to Hide...</summary>
+        <p>The HTML Details Element (details) creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state. A summary or label can be provided using the summary element.</p>
+      </details>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Heading</th>
+            <th style="text-align: center;">Heading</th>
+            <th style="text-align: right;">Heading</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="odd">
+            <td>Left</td>
+            <td style="text-align: center;">Center</td>
+            <td style="text-align: right;">Right</td>
+          </tr>
+          <tr class="even">
+            <td>Left</td>
+            <td style="text-align: center;">Center</td>
+            <td style="text-align: right;">Right</td>
+          </tr>
+          <tr class="odd">
+            <td>Left</td>
+            <td style="text-align: center;">Center</td>
+            <td style="text-align: right;">Right</td>
+          </tr>
+          <tr class="even">
+            <td>Left</td>
+            <td style="text-align: center;">Center</td>
+            <td style="text-align: right;">Right</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <dl>
+        <dt>Definition List</dt>
+        <dd>The HTML dl tag is used for declaring a definition list. A definition list is similar to other lists but in a definition list, each list item contains two entries; a term and a description.</dd>
+        <dt>Baseline</dt>
+        <dd>CSS starter-kit built on top of PostCSS</dd>
+      </dl>
+
+      <h5>Mixed list items</h5>
+
+      <ul>
+        <li>Unordered list-item 1</li>
+        <li>Unordered list-item 2
+          <ol>
+            <li>Ordered list-item 1</li>
+            <li>Ordered list-item 2</li>
+          </ol>
+        </li>
+        <li>Unordered list-item 3</li>
+        <li>Unordered list-item 4</li>
+      </ul>
+
+      <address>
+        <b>Address</b><br>
+        Mozilla Foundation<br>
+        1981 Landings Drive<br>
+        Mountain View, CA 94043-0801<br>
+        USA
+      </address>
+
+      <hr>
+
+      <p>Here is some inline code for you: <code>var myNumber = 0;</code></p>
+
+      <pre>// This logs a message to the console and check out the scrollbar.<br>console.log('Hello, world!')</pre>
+
+      <p>
+        Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Print Screen</kbd> to take
+        a selected area screenshot on Linux.
+      </p>
+
+      <h3>Form Elements</h3>
+
+      <form>
+
+        <fieldset>
+          <legend>Fieldset</legend>
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="john.doe@gmail.com">
+
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" placeholder="password">
+
+          <p>
+            <input type="checkbox" name="remember" id="remember" checked="">
+            <label for="remember">Remember me</label>
+          </p>
+
+          <input type="submit">
+        </fieldset>
+
+        <label for="id">User id (read only)</label>
+        <input readonly="" name="id" id="id" value="04D6H89Z">
+
+        <label for="disabled">Random disabled input</label>
+        <input disabled="" name="disabled" id="disabled" placeholder="Because why not?">
+
+        <label for="about">About me</label>
+        <textarea name="about" id="about" placeholder="I am a textarea..."></textarea>
+
+        <label for="drink">Select your favorite drink</label>
+        <select name="drinks" id="drink">
+          <option value="mojito">Mojito</option>
+          <option value="water">Water</option>
+          <option value="lemon">Lemon juice</option>
+        </select>
+
+        <label for="drinks">Or select multiple favorite drinks</label>
+        <br>
+        <small>Hold down the Ctrl (Windows) /  Command (Mac) button to select multiple options. (P.S. this message is inside a <code>&lt;small&gt;</code> tag!)</small>
+
+        <select name="drink" id="drinks" multiple="">
+          <option value="mojito">Mojito</option>
+          <option value="water">Water</option>
+          <option value="lemon">Lemon juice</option>
+        </select>
+
+        <label>Choose a Doe:</label>
+        <div>
+          <input type="radio" id="john" name="doe" value="john" checked="">
+          <label for="john">John Doe</label>
+        </div>
+        <div>
+          <input type="radio" id="jane" name="doe" value="jane" checked="">
+          <label for="jane">Jane Doe</label>
+        </div>
+        <div>
+          <input type="radio" id="johnny" name="doe" value="johnny" checked="">
+          <label for="johnny">Johnny Doe</label>
+        </div>
+        <div>
+          <input type="radio" id="doe" name="doe" value="doe" checked="">
+          <label for="doe">An actual doe</label>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</section>

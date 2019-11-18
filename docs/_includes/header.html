@@ -1,12 +1,24 @@
-<header class="c-header" style="background-image:url('{{site.baseurl}}/assets/img/header-bg.jpg');">
+<header class="o-container c-header">
+  <div class="o-grid">
+    <div class="o-grid__col u-span--12">
 
-  <div class="c-header__btn-group">
-    <a class="c-btn c-btn--inv" href="{{site.repo}}">View on Github</a>
-    <a class="c-btn" href="https://github.com/felixdorner/baseline/releases/latest">Download</a>
+      <div class="c-header__branding">
+        <h1>{{page.title}}</h1> <mark>{{site.src-ver}}</mark>
+      </div>
+
+      <div class="c-header__menu">
+        <ul>
+          {% for instruction in site.instructions %}
+            <li><a href="#{{ instruction.slug }}">{{ instruction.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="c-header__btns">
+        <a class="c-btn c-btn--inv" href="{{site.repo}}">View on Github</a>
+        <a class="c-btn" href="https://github.com/felixdorner/baseline/releases/latest">Download</a>
+      </div>
+
+    </div>
   </div>
-
-  <div>
-    <img class="c-header__illu" src="{{site.baseurl}}/assets/img/baseline-illu@2x.png" alt="Baseline cover illustration"/>
-  </div>
-
 </header>

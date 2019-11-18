@@ -1,5 +1,9 @@
 # Baseline Changelog
 
+### *20191118*
+* **NEW** Docs: Changed the look, added examples
+* **NEW** Src: Completely revised everything
+
 ### *20191111*
 * **NEW** Docs: Changed the look
 * **TWEAK** Docs: Improved wording

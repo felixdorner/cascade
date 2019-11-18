@@ -2,8 +2,9 @@
 
 ul,
 ol {
-  margin: 0 0 1.4em;
-  padding-left: var(--grid--gutter);
+  margin: 0 0 var(--spc--md);
+  padding-left: var(--fs--lg);
+  line-height: var(--lh--wide);
 }
 
 ul { list-style: disc; }
@@ -14,15 +15,6 @@ li > ol {
   margin-bottom: 0;
 }
 
-dl {
-  margin-bottom: 1.4em;
-}
-
-dt {
-  margin-bottom: 1.4em;
-  font-weight: bold;
-}
-
-dd {
-  margin: 0 0 1.4em;
-}
+dl { margin-bottom: var(--spc--md); }
+dt { font-weight: bold; }
+dd { margin: 0 0 var(--spc--xs) var(--spc--xs); }

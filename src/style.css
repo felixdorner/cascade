@@ -2,7 +2,7 @@
 /*!
 
   BASELINE
-  Version: 1.0.0-beta.3
+  Version: 1.0.0-beta.4
   Author: Felix Dorner
   Demo URI: https://felixdorner.github.io/baseline/
   Description: CSS starter-kit built on top of PostCSS
@@ -13,6 +13,7 @@
 
 */
 
+@import 'normalize';
 @import 'settings';
 @import 'base/base';
 @import 'objects/objects';

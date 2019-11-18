@@ -1,0 +1,29 @@
+/* DETAILS */
+
+details {
+  background-color: rgba(var(--rgb--subtlest), 1);
+  padding: var(--spc--sm);
+  margin: 0 0 var(--spc--md);
+  border-radius: var(--br);
+  overflow: hidden;
+}
+
+details > :last-child {
+  margin-bottom: 0;
+}
+
+details summary {
+  cursor: pointer;
+}
+
+details summary:focus {
+  outline: 0;
+}
+
+details[open] summary {
+  margin-bottom: var(--spc--xs);
+}
+
+summary::-webkit-details-marker {
+  color: rgba(var(--rgb--main), 1);
+}

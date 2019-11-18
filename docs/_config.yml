@@ -1,6 +1,6 @@
 # Custom variables
-docs-ver: v1.0.0-beta.6
-src-ver:  v1.0.0-beta.3
+docs-ver: v1.0.0-beta.7
+src-ver:  v1.0.0-beta.4
 repo:     https://github.com/felixdorner/baseline
 download: https://github.com/felixdorner/baseline/releases/latest
 

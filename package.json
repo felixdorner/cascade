@@ -1,6 +1,6 @@
 {
   "name": "Baseline",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "CSS starter-kit built on top of PostCSS",
   "repository": {
     "type": "git",
@@ -12,6 +12,9 @@
       "postcss-preset-env": {
         "stage": "0",
         "browsers": "defaults",
+        "features": {
+          "custom-properties": false
+        },
         "preserve": false
       },
       "postcss-clean": {

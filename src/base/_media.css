@@ -5,11 +5,26 @@ picture,
 figure {
   max-width: 100%;
   height: auto;
+  margin: 0 0 var(--spc--md);
+}
+
+figure > a,
+picture > a {
+  display: inline-block;
+}
+
+figure img,
+picture img {
   margin: 0;
+}
+
+figcaption {
+  font-size: var(--fs--xs);  
 }
 
 embed,
 iframe,
 object {
   max-width: 100%;
+  margin: 0 0 var(--spc--md);
 }

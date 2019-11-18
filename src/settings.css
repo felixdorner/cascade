@@ -1,47 +1,74 @@
 :root {
-  --font--primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font--secondary: Athelas, Georgia, times, serif;
-  --font--code: Consolas, Monaco, monospace;
+  --ff--pri:              -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --ff--sec:              Athelas, Georgia, times, serif;
+  --ff--code:             Consolas, Monaco, monospace;
 
-  --color--main: #0D0D0D;
-  --color--accent: #0020FF;
-  --color--subtle: #D2D2D2;
-  --color--subtle-darker: #A2A2A2;
-  --color--subtle-lighter: #F5F5F5;
-  --color--light: #FFFFFF;
-  --color--success: #48B260;
-  --color--warning: #F0B242;
-  --color--error: #CC4444;
+  --fs--xs:               .75rem;
+  --fs--sm:               .875rem;
+  --fs--md:               1rem;
+  --fs--lg:               1.25rem;
+  --fs--xl:               1.5rem;
+  --fs--xxl:              2.25rem;
+  --fs--xxxl:             3rem;
 
-  --grid--max-width: 1184px;
-  --grid--gutter: 32px;
+  --lh--narrow:           1.25;
+  --lh--base:             1.5;
+  --lh--wide:             1.75;
 
-  --span--01: calc(100% / 12);
-  --span--02: calc((100% / 12) * 2);
-  --span--03: 25%;
-  --span--04: calc((100% / 12) * 4);
-  --span--05: calc((100% / 12) * 5);
-  --span--06: 50%;
-  --span--07: calc((100% / 12) * 7);
-  --span--08: calc((100% / 12) * 8);
-  --span--09: 75%;
-  --span--10: calc((100% / 12) * 10);
-  --span--11: calc((100% / 12) * 11);
-  --span--12: 100%;
+  --rgb--main:            12, 12, 12;
+  --rgb--accent:          0, 32, 255;
+  --rgb--subtle:          162, 162, 162;
+  --rgb--subtler:         210, 210, 210;
+  --rgb--subtlest:        245, 245, 245;
+  --rgb--light:           255, 255, 255;
+  --rgb--success:         72, 178, 96;
+  --rgb--warning:         240, 178, 66;
+  --rgb--error:           204, 68, 68;
 
-  --spacing--01: 4px;
-  --spacing--02: 8px;
-  --spacing--03: 16px;
-  --spacing--04: 32px;
-  --spacing--05: 64px;
-  --spacing--06: 96px;
-  --spacing--07: 128px;
-  --spacing--08: 160px;
-  --spacing--09: 192px;
-  --spacing--10: 224px;
+  --alpha--subtle:        .8;
+  --alpha--subtler:       .5;
+  --alpha--subtlest:      .15;
+
+  --anim-dur:             .2s;
+  --anim-func:            linear;
+
+  --br:                   2px;
+
+  --spc--xxs:             calc(var(--spc--md) / 4);
+  --spc--xs:              calc(var(--spc--md) / 2);
+  --spc--sm:              calc(var(--spc--md) / 1.5);
+  --spc--md:              calc(var(--lh--base) * 1rem);
+  --spc--lg:              calc(var(--spc--md) * 1.5);
+  --spc--xl:              calc(var(--spc--md) * 2);
+  --spc--xxl:             calc(var(--spc--md) * 4);
+  --spc--xxxl:            calc(var(--spc--md) * 8);
+
+  --grid-mw:              1140px;
+  --grid-gutter--lg:      var(--spc--lg);
+  --grid-gutter--xl:      var(--spc--xl);
+
+  --span--01:             calc(100% / 12);
+  --span--02:             calc((100% / 12) * 2);
+  --span--03:             25%;
+  --span--04:             calc((100% / 12) * 4);
+  --span--05:             calc((100% / 12) * 5);
+  --span--06:             50%;
+  --span--07:             calc((100% / 12) * 7);
+  --span--08:             calc((100% / 12) * 8);
+  --span--09:             75%;
+  --span--10:             calc((100% / 12) * 10);
+  --span--11:             calc((100% / 12) * 11);
+  --span--12:             100%;
+
+  --select-arrow:         url("data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%23161f27'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E");
 }
 
-@custom-media --breakpoint--sm screen and (min-width: 480px);
-@custom-media --breakpoint--md screen and (min-width: 740px);
-@custom-media --breakpoint--lg screen and (min-width: 960px);
-@custom-media --breakpoint--xl screen and (min-width: 1140px);
+@custom-media --bp-min--sm screen and (min-width: 480px);
+@custom-media --bp-min--md screen and (min-width: 740px);
+@custom-media --bp-min--lg screen and (min-width: 960px);
+@custom-media --bp-min--xl screen and (min-width: 1140px);
+
+@custom-media --bp-max--sm screen and (max-width: 480px);
+@custom-media --bp-max--md screen and (max-width: 740px);
+@custom-media --bp-max--lg screen and (max-width: 960px);
+@custom-media --bp-max--xl screen and (max-width: 1140px);
