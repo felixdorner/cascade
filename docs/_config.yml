@@ -1,8 +1,8 @@
 # Custom variables
 docs-ver: v1.0.0-beta.7
-src-ver:  v1.0.0-beta.4
-repo:     https://github.com/felixdorner/baseline
-download: https://github.com/felixdorner/baseline/releases/latest
+src-ver:  v1.0.0-beta.5
+repo:     https://github.com/felixdorner/bica
+download: https://github.com/felixdorner/bica/releases/latest
 
 # Collections
 collections:

@@ -1,10 +1,10 @@
 ---
-title: Grid System
+title: Grid
 slug: grid
 category: grid
 ---
 
-Baseline provides a grid system for simple layout explorations. To use it, the HTML markup should follow a specific structure:
+There is a basic grid system for simple layout explorations. To use it, the HTML markup should follow a specific structure:
 
 ```
 .o-container

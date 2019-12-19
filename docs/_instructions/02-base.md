@@ -1,5 +1,5 @@
 ---
-title: Base Elements
+title: Elements
 slug: base
 category: base
 ---

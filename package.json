@@ -1,10 +1,10 @@
 {
-  "name": "Baseline",
-  "version": "1.0.0-beta.4",
+  "name": "bica",
+  "version": "1.0.0-beta.5",
   "description": "CSS starter-kit built on top of PostCSS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felixdorner/baseline"
+    "url": "https://github.com/felixdorner/bica"
   },
   "postcss": {
     "plugins": {
@@ -23,8 +23,8 @@
     }
   },
   "scripts": {
-    "css": "postcss src/style.css -o dist/baseline.min.css",
-    "copy": "cp dist/baseline.min.css docs/assets/css/",
+    "css": "postcss src/style.css -o dist/bica.min.css",
+    "copy": "cp dist/bica.min.css docs/assets/css/",
     "watch": "onchange 'src/**/*.css' -- npm-run-all css copy",
     "build": "npm-run-all css copy"
   },

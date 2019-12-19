@@ -5,7 +5,7 @@ slug: setup
 
 Attention: This kit is in active development. Future beta versions might be completely incompatible with this one!
 
-1. Download the [latest release](https://github.com/felixdorner/baseline/releases/latest)
+1. Download the [latest release](https://github.com/felixdorner/bica/releases/latest)
 2. Copy the src folder into your project
 3. Integrate files in a build process*
 

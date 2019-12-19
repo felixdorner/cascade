@@ -60,21 +60,6 @@ select *:focus {
   outline: none;
 }
 
-select[multiple] {
-  background: rgba(var(--rgb--light), 1);
-  border: 1px solid rgba(var(--rgb--subtler), 1);
-  border-radius: var(--br);
-  width: 100%;
-
-  &:focus {
-    border: 1px solid rgba(var(--rgb--accent), 1);
-  }
-}
-
-select[multiple] option {
-  padding: var(--spc--xxs) var(--spc--xs);  
-}
-
 button,
 input[type="button"],
 input[type="reset"],

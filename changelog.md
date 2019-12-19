@@ -1,4 +1,7 @@
-# Baseline Changelog
+# Changelog
+
+### *20191219*
+* **NEW** Changed the name
 
 ### *20191118*
 * **NEW** Docs: Changed the look, added examples
