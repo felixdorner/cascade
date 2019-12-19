@@ -1,4 +1,4 @@
-# CSS Laces
+# Bica
 
 CSS starter-kit built on top of [PostCSS](http://postcss.org/).
 
