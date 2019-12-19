@@ -48,7 +48,7 @@ input[type='radio'] {
 
 select:not([multiple]) {
   appearance: none;
-  border: 1px solid rgba(var(--rgb--subtlest), 1);
+  border: 1px solid rgba(var(--rgb--subtle), var(--alpha--subtlest));
   border-radius: var(--br);
   background: rgba(var(--rgb--subtlest), 1) var(--select-arrow) calc(100% - 12px) 50% / 12px no-repeat;
   padding: var(--spc--xxs) var(--spc--lg) var(--spc--xxs) var(--spc--xs);

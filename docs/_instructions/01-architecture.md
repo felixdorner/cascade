@@ -3,13 +3,13 @@ title: Architecture
 slug: architecture
 ---
 
-This kit is intended to be used as a simple starting point when writing CSS. It helps to create and maintain a mindful and scalable CSS structure. Therefore, styles are grouped into the following categories:
+Bica is intended to be used as a simple starting point when writing CSS. It helps to create and maintain a mindful and scalable CSS structure. Therefore, styles are grouped into the following categories:
 
 **Settings**  
 Settings contain global configurations like custom properties and breakpoints which are shared across the system.
 
 **Base**  
-Base styles are default styles of base elements like headings or paragraphs without ID or class selectors. These styles serve as a browser reset and the foundation for everything specified afterwards in the cascade.
+Base styles are default styles of html tags like headings or paragraphs without ID or class selectors. These styles serve as a browser reset and the foundation for everything specified afterwards in the cascade.
 
 **Objects**  
 Objects are class-based selectors which define design patterns like containers or grids shared across the system. Classes of this category are prefixed with `o-`.

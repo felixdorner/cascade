@@ -1,7 +1,7 @@
 # Changelog
 
 ### *20191219*
-* **NEW** Changed the name
+* **NEW** Changed the name and look
 
 ### *20191118*
 * **NEW** Docs: Changed the look, added examples

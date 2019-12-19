@@ -6,14 +6,6 @@ layout: base
 
 <main>
 
-  <section class="o-container o-container--padded c-intro">
-    <div class="o-grid">
-      <div class="o-grid__col u-span--12">
-        <p class="c-intro__slogan">{{page.description}}</p>
-      </div>
-    </div>
-  </section>
-
   {% for instruction in site.instructions %}
 
     {% if instruction.category == 'grid' %}

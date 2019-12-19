@@ -1,5 +1,5 @@
 ---
-title: Grid
+title: Grid System
 slug: grid
 category: grid
 ---

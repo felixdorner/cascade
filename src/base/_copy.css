@@ -135,7 +135,7 @@ var {
 }
 
 kbd {
-  padding: var(--spc--xxs);
+  padding: 0.1em 0.2em;
   background: rgba(var(--rgb--subtlest), 1);
   border: 1px solid rgba(var(--rgb--subtle), var(--alpha--subtlest));
   border-radius: var(--br);
