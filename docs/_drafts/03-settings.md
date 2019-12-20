@@ -3,7 +3,7 @@ title: Settings
 slug: settings
 ---
 
-These are the settings Baseline is shipped with. Feel free to add your own:
+These are the settings Bica is shipped with. Feel free to add your own:
 
 ```
 :root {

@@ -1,1 +1,11 @@
 /* COLORS */
+
+.u-clr-main { color: rgba(var(--rgb--main), 1); }
+.u-clr-accent { color: rgba(var(--rgb--accent), 1); }
+.u-clr-subtle { color: rgba(var(--rgb--subtle), 1); }
+.u-clr-subtler { color: rgba(var(--rgb--subtler), 1); }
+.u-clr-subtlest { color: rgba(var(--rgb--subtlest), 1); }
+.u-clr-light { color: rgba(var(--rgb--light), 1); }
+.u-clr-success { color: rgba(var(--rgb--success), 1); }
+.u-clr-warning { color: rgba(var(--rgb--warning), 1); }
+.u-clr-error { color: rgba(var(--rgb--error), 1); }

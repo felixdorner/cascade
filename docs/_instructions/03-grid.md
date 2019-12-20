@@ -4,7 +4,7 @@ slug: grid
 category: grid
 ---
 
-There is a basic grid system for simple layout explorations. To use it, the HTML markup should follow a specific structure:
+Bica provides a basic grid system for simple layout explorations. To use it, the HTML markup should follow a specific structure:
 
 ```
 .o-container
@@ -19,7 +19,7 @@ The maximum grid-width is set on the .o-grid element. The grid is always centere
 
 #### Responsiveness
 
-To set widths and shifts individually for the 4 custom breakpoints defined in the settings.css append the following modifiers at the end: sm, md, lg, xl
+To set widths and shifts individually for the 4 custom min-width breakpoints defined in the settings.css append the following modifiers at the end: sm, md, lg, xl
 
 Example:
 
@@ -30,4 +30,4 @@ Example:
     .o-grid__col .u-span--12 .u-span--06md .u-span--04lg
 ```
 
-Note: Breakpoints overwrite each other from small to large!
+Note: Rules based on min-width breakpoints overwrite each other from small to large!

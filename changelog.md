@@ -1,13 +1,16 @@
 # Changelog
 
-### *20191219*
+### *20191219* - 1.0.0
+* **TWEAK** Last tweaks for 1.0.0
+
+### *20191219* - 1.0.0-beta.5
 * **NEW** Changed the name and look
 
-### *20191118*
+### *20191118* - 1.0.0-beta.4
 * **NEW** Docs: Changed the look, added examples
 * **NEW** Src: Completely revised everything
 
-### *20191111*
+### *20191111* - 1.0.0-beta.3
 * **NEW** Docs: Changed the look
 * **TWEAK** Docs: Improved wording
 * **TWEAK** Src: Improved grid paddings

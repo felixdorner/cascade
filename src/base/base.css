@@ -10,8 +10,8 @@
 
 @import '_box-sizing';
 @import '_copy';
+@import '_details';
 @import '_forms';
 @import '_lists';
-@import '_tables';
 @import '_media';
-@import '_details';
+@import '_tables';
