@@ -73,7 +73,7 @@ ul.c-menu__btns {
   font-size: var(--fs--xs);
 }
 
-section.o-container h2 {
+.c-container-title {
   font-size: var(--fs--lg);
 }
 
