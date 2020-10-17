@@ -3,7 +3,7 @@ title: Setup
 slug: setup
 ---
 
-1. Download the [latest release](https://github.com/felixdorner/bica/releases/latest)
+1. Download the [latest release](https://github.com/felixdorner/cascade/releases/latest)
 2. Copy the src folder into your project
 3. Integrate files in a build process*
 

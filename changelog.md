@@ -1,5 +1,9 @@
 # Changelog
 
+### *20201017* - 1.1.0
+* **DEV** Renamed to Cascade
+* **DEV** Updated dependencies
+
 ### *20191219* - 1.0.0
 * **TWEAK** Last tweaks for 1.0.0
 

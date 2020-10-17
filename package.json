@@ -1,10 +1,10 @@
 {
-  "name": "bica",
+  "name": "cascade",
   "version": "1.0.0",
   "description": "CSS starter-kit built on top of PostCSS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felixdorner/bica"
+    "url": "https://github.com/felixdorner/cascade"
   },
   "postcss": {
     "plugins": {
@@ -23,8 +23,8 @@
     }
   },
   "scripts": {
-    "css": "postcss src/style.css -o dist/bica.min.css",
-    "copy": "cp dist/bica.min.css docs/assets/css/",
+    "css": "postcss src/style.css -o dist/cascade.min.css",
+    "copy": "cp dist/cascade.min.css docs/assets/css/",
     "watch": "onchange 'src/**/*.css' -- npm-run-all css copy",
     "build": "npm-run-all css copy"
   },

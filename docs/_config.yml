@@ -1,8 +1,8 @@
 # Custom variables
-docs-ver: v1.0.1
-src-ver:  v1.0.0
-repo:     https://github.com/felixdorner/bica
-download: https://github.com/felixdorner/bica/releases/latest
+docs-ver: v1.1.0
+src-ver:  v1.1.0
+repo:     https://github.com/felixdorner/cascade
+download: https://github.com/felixdorner/cascade/releases/latest
 
 # Collections
 collections:
