@@ -1,6 +1,6 @@
 # Custom variables
-docs-ver: v1.1.0
-src-ver:  v1.1.0
+docs-ver: v1.2.0
+src-ver:  v1.2.0
 repo:     https://github.com/felixdorner/cascade
 download: https://github.com/felixdorner/cascade/releases/latest
 

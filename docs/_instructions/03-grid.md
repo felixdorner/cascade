@@ -4,7 +4,7 @@ slug: grid
 category: grid
 ---
 
-cascade provides a basic grid system for simple layout explorations. To use it, the HTML markup should follow a specific structure:
+Cascade provides a basic grid system for simple layout explorations. To use it, the HTML markup should follow a specific structure:
 
 ```
 .o-container

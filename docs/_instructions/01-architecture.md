@@ -3,7 +3,7 @@ title: Architecture
 slug: architecture
 ---
 
-cascade is intended to be used as a simple starting point when writing CSS. It helps to create and maintain a mindful and scalable CSS structure. Therefore, styles are grouped into the following categories:
+Cascade is intended to be used as a simple starting point when writing CSS. It helps to create and maintain a mindful and scalable CSS structure. Therefore, styles are grouped into the following categories:
 
 **Settings**  
 Settings contain global configurations like custom properties and breakpoints which are shared across the system.
